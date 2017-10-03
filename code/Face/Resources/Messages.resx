@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACREEDOR_EXISTENTE" xml:space="preserve">
+    <value>Ya existe una factura de este tipo de acreedor asociada al expediente. ¿Desea establecer esta como la factura principal de este acreedor para el expediente seleccionado?</value>
+  </data>
+  <data name="ALBARANES_ASOCIADOS" xml:space="preserve">
+    <value>Existen albaranes asociados a esta serie, para eliminar esta serie deberá eliminar primero todos los albaranes vinculados.</value>
+  </data>
+  <data name="ALBARANES_CON_IRPF_DISTINTO" xml:space="preserve">
+    <value>No es posible asignar albaranes con IRPF distinto a una misma Factura.</value>
+  </data>
+  <data name="ALBARAN_ASOCIADO" xml:space="preserve">
+    <value>Este producto tiene albaranes de compra o venta asociados.</value>
+  </data>
+  <data name="BULTOS_INFERIORES" xml:space="preserve">
+    <value>La cantidad de bultos es inferior a la estimada ({0}). ¿Desea continuar?.</value>
+  </data>
+  <data name="BULTOS_INSUFICIENTES" xml:space="preserve">
+    <value>Bultos insuficientes. Cantidad actual:</value>
+  </data>
+  <data name="BULTOS_SUPERIORES" xml:space="preserve">
+    <value>La cantidad de bultos es superior a la estimada ({0}). ¿Desea continuar?.</value>
+  </data>
+  <data name="CAMPOS_EXPEDIENTES" xml:space="preserve">
+    <value>GASTO KG: Es el total de los gastos asociados dividido entre los kg del expediente | COSTE KG: Es el PRECIO DE COMPRA + GASTO KG</value>
+  </data>
+  <data name="DUPLICATED_EXPENSE_LINE" xml:space="preserve">
+    <value>Existe un problema con los gastos asociados a este expediente. Es probable que se haya asignado un concepto de factura a varios expedientes, lo que provoca este error.</value>
+  </data>
+  <data name="EXTRACTO_TARJETA_VENCIDO" xml:space="preserve">
+    <value>Existe un extracto de tarjeta asociado a este pago, con lo cual  no es posible modificarlo.</value>
+  </data>
+  <data name="FACTURA_CON_ALBARANES" xml:space="preserve">
+    <value>No es posible cambiar el Proveedor a una factura con albaranes asociados.</value>
+  </data>
+  <data name="FACTURA_CON_IRPF_DISTINTO" xml:space="preserve">
+    <value>El IRPF del albarán que está intentando incluir no coincide con el existente y no es posible realizar la acción.</value>
+  </data>
+  <data name="FACTURA_PROVEEDOR_DIFERENTE" xml:space="preserve">
+    <value>El importe de la factura del proveedor ({0}) no coincide con el importe calculado a partir de los productos del expediente ({1})."</value>
+  </data>
+  <data name="FACTURA_PROVEEDOR_REQUIRED" xml:space="preserve">
+    <value>Para garantizar la trazabilidad de la mercancía es imprescindible indicar la factura del proveedor antes de introducir productos en el expediente.</value>
+  </data>
+  <data name="FECHA_PROVEEDOR_REQUIRED" xml:space="preserve">
+    <value>Para garantizar la trazabilidad de la mercancía es imprescindible indicar la fecha de factura del proveedor antes de introducir productos en el expediente.</value>
+  </data>
+  <data name="GASTO_CON_EXPEDIENTE" xml:space="preserve">
+    <value>No es posible cambiar el estado de un gasto asociado a un expediente</value>
+  </data>
+  <data name="GASTO_CON_PAGO" xml:space="preserve">
+    <value>No es posible cambiar el estado de un gasto con un pago asociado</value>
+  </data>
+  <data name="GENERANDO_FACTURAS" xml:space="preserve">
+    <value>Generando facturas...</value>
+  </data>
+  <data name="IMPORTANDO_ALBARANES" xml:space="preserve">
+    <value>Importando albaranes seleccionados...</value>
+  </data>
+  <data name="IMPORTE_PAGO_COMPENSACION" xml:space="preserve">
+    <value>El importe total para este tipo de pago debe ser 0.</value>
+  </data>
+  <data name="IMPOSIBLE_CAMBIAR_PROVEEDOR_EXPEDIENTE" xml:space="preserve">
+    <value>No es posible modificar el proveedor de un expediente con productos asociados. Esta acción dejaría el expediente actual sin factura asociada.</value>
+  </data>
+  <data name="INCORRECT_PRICE" xml:space="preserve">
+    <value>El precio introducido no es correcto.</value>
+  </data>
+  <data name="INVALID_PRICE" xml:space="preserve">
+    <value>El precio introducido no es correcto. Debe ser mayor que 0.</value>
+  </data>
+  <data name="INVENTARIO_ASOCIADO" xml:space="preserve">
+    <value>Existen inventarios vinculados a este almacén, para eliminar este almacen deberá eliminar primero todos los inventarios vinculados.</value>
+  </data>
+  <data name="LINEA_ALMACEN_ASOCIADA" xml:space="preserve">
+    <value>Existen elementos vinculados a este almacén, para eliminar este almacen deberá eliminar primero todos los elementos vinculados.</value>
+  </data>
+  <data name="MAX_CANTIDAD_EXPEDIENTE_UNO" xml:space="preserve">
+    <value>Para expedientes del tipo Maquinaria o Ganado la cantidad máxima por concepto debe ser 1. </value>
+  </data>
+  <data name="NOFITY_FACTURAS_RECIBIDAS_PENDIENTES" xml:space="preserve">
+    <value>FRAS. RECIBIDAS PTES. CON PREV. ANTERIOR AL {0}</value>
+  </data>
+  <data name="NOFITY_GASTOS_PENDIENTES" xml:space="preserve">
+    <value>GASTOS PTES. CON VTO. ANTERIOR AL {0}</value>
+  </data>
+  <data name="NOFITY_PAGOS_PENDIENTES" xml:space="preserve">
+    <value>PAGOS PTES. CON VTO. ANTERIOR AL {0}</value>
+  </data>
+  <data name="NOMINA_CON_PAGO" xml:space="preserve">
+    <value>No es posible eliminar una nómina con un pago asociado.</value>
+  </data>
+  <data name="NOTIFY_COMERCIO_EXTERIOR" xml:space="preserve">
+    <value>COMERCIO EXTERIOR CON VTO. ANTERIOR AL {0}</value>
+  </data>
+  <data name="NOTIFY_PAGOS_TARJETAS_VENCIDOS" xml:space="preserve">
+    <value>PAGOS CON TARJETA VENCIDOS A {0}</value>
+  </data>
+  <data name="NOTIFY_PAGOS_VENCIDOS" xml:space="preserve">
+    <value>PAGOS VENCIDOS A {0}</value>
+  </data>
+  <data name="NOTIFY_STOCK_NEGATIVO" xml:space="preserve">
+    <value>PRODUCTOS CON STOCK NEGATIVO</value>
+  </data>
+  <data name="NO_FAMILIAS_ASOCIADAS" xml:space="preserve">
+    <value>No se han asociado familias a esta serie. Debe asociar al menos una familia para poder guardar la serie.</value>
+  </data>
+  <data name="NO_GASTOS_ASOCIADOS" xml:space="preserve">
+    <value>No se han asociado gastos del tipo {0} a este expediente. Para seleccionar la factura correspondiente utilice la pestaña de Gastos.</value>
+  </data>
+  <data name="NO_HOLDER" xml:space="preserve">
+    <value>Debe elegir un emisor antes de asignar la factura a un expediente.</value>
+  </data>
+  <data name="NO_PRICE" xml:space="preserve">
+    <value>No ha puesto ningun precio. Asocie un precio al producto antes de continuar.</value>
+  </data>
+  <data name="NO_PRODUCTS_ASSOC" xml:space="preserve">
+    <value>No existen productos asociados al expediente.</value>
+  </data>
+  <data name="NO_PROV_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ningún Proveedor.</value>
+  </data>
+  <data name="NO_SERIE_SELECTED" xml:space="preserve">
+    <value>Seleccione una serie</value>
+  </data>
+  <data name="NO_TRANS_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ningun Transportista.</value>
+  </data>
+  <data name="NO_UNIDADES_OR_BULTOS" xml:space="preserve">
+    <value>Es necesario indicar unidades y bultos</value>
+  </data>
+  <data name="NO_UNITS_ALLOWED" xml:space="preserve">
+    <value>No es posible asignar productos no unitarios a este tipo de expediente</value>
+  </data>
+  <data name="PAYMENT_BIGGER_ALLOCATION" xml:space="preserve">
+    <value>"La asignación {0:C2} es superior a la cantidad pendiente en el cobro {1:C2}."</value>
+  </data>
+  <data name="PAYMENT_LESS_ALLOCATION" xml:space="preserve">
+    <value>La asignación {0:C2} es inferior a la cantidad pendiente en el cobro {1:C2}</value>
+  </data>
+  <data name="PRESTAMO_ASOCIADO_PAGO_FACTURA" xml:space="preserve">
+    <value>El préstamo que está intentando borrar está asociado a un pago de factura y no es posible realizar la operación.</value>
+  </data>
+  <data name="PRESTAMO_CON_PAGOS_ASOCIADOS" xml:space="preserve">
+    <value>No es posible borrar el préstamo seleccionado mientras tenga pagos asociados.</value>
+  </data>
+  <data name="PRESTAMO_CON_PAGOS_PREVIOS" xml:space="preserve">
+    <value>El préstamo actual ya contiene pagos. ¿Desea mantener estos pagos junto con los nuevos que se generarán? En caso contrario, se anularán los pagos que existen actualmente.</value>
+  </data>
+  <data name="SAME_PIECES_AND_KILOS" xml:space="preserve">
+    <value>La relación de kilos y unidades de este producto es {0} a 1 y el número de kilos y unidades de esta partida es el mismo. ¿Desea continuar?</value>
+  </data>
+  <data name="SAVE_STATEMENT_CONFIRMATION" xml:space="preserve">
+    <value>¿Confirma la generación del extracto para la fecha {0}?</value>
+  </data>
+  <data name="SELECT_CLIENT" xml:space="preserve">
+    <value>Seleccione un cliente</value>
+  </data>
+  <data name="SELECT_CUSTOM_AGENCY" xml:space="preserve">
+    <value>No se ha seleccionado ningún Despachante</value>
+  </data>
+  <data name="SELECT_HOLDER" xml:space="preserve">
+    <value>Seleccione un emisor</value>
+  </data>
+  <data name="SELECT_PAYMENT_METHOD" xml:space="preserve">
+    <value>No ha seleccionado el Medio de pago</value>
+  </data>
+  <data name="SELECT_PORT" xml:space="preserve">
+    <value>Seleccione un puerto</value>
+  </data>
+  <data name="SELECT_PRODUCT" xml:space="preserve">
+    <value>Debe seleccionar un producto</value>
+  </data>
+  <data name="SELECT_SHIPPING_COMPANY" xml:space="preserve">
+    <value>No se ha seleccionado ninguna Naviera</value>
+  </data>
+  <data name="STOCK_ASOCIADO" xml:space="preserve">
+    <value>Este producto tiene movimientos de stock asociados.</value>
+  </data>
+  <data name="STOCK_FACTURADO" xml:space="preserve">
+    <value>No es posible modificar ni eliminar el movimiento inicial ni un movimiento de stock asociado a un albarán.</value>
+  </data>
+  <data name="STOCK_INSUFICIENTE" xml:space="preserve">
+    <value>Stock insuficiente. Cantidad actual:</value>
+  </data>
+  <data name="TIPOS_INTERES_NO_VALIDOS" xml:space="preserve">
+    <value>Los tipos de interés introducidos no son válidos. Tenga en cuenta que la fecha de inicio de cada periodo debe ser previa a la de finalización y que los periodos no se pueden solapar entre ellos.</value>
+  </data>
+  <data name="TITULAR_FACTURA_DIFERENTE" xml:space="preserve">
+    <value>No es posible asignar albaranes de titulares distintos a una misma factura.</value>
+  </data>
+  <data name="UPDATING_STOCK" xml:space="preserve">
+    <value>Actualizando stock...</value>
+  </data>
+</root>

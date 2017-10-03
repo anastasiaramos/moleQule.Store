@@ -1,0 +1,9 @@
+/* UPDATE 6.5.0.0*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '6.6.0.0' WHERE "NAME" = 'STORE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+ALTER SEQUENCE "Pago_Factura_OID_seq" RENAME TO "Pago_Operacion_OID_seq";

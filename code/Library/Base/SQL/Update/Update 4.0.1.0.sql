@@ -1,0 +1,43 @@
+/* UPDATE 4.0.1.0*/
+
+SET SEARCH_PATH = "COMMON";
+
+INSERT INTO "COMMON"."SecureItem" ("NAME") VALUES ('Nominas');
+INSERT INTO "COMMON"."SecureItem" ("NAME") VALUES ('Gastos');
+
+DROP TABLE IF EXISTS "TipoGasto";
+CREATE TABLE "TipoGasto" 
+( 
+	"OID" bigserial NOT NULL,
+	"SERIAL" bigint,
+	"CODIGO" varchar(255),
+	"CATEGORIA" bigint,
+	"NOMBRE" text,
+	"MEDIO_PAGO" int8 DEFAULT 1,
+	"FORMA_PAGO" int8 DEFAULT 1,
+	"DIAS_PAGO" int8,
+	"OID_CUENTA_ASOCIADA" int8 DEFAULT 0,
+	"CUENTA_BANCARIA" varchar(255),
+	"CUENTA_CONTABLE" varchar(255),
+	"OBSERVACIONES" text,	
+	CONSTRAINT "PK_TipoGasto" PRIMARY KEY ("OID")
+) WITHOUT OIDS;
+
+ALTER TABLE "TipoGasto" OWNER TO moladmin;
+GRANT ALL ON TABLE "TipoGasto" TO GROUP "MOLEQULE_ADMINISTRATOR";
+
+SET SEARCH_PATH = "0001";
+
+INSERT INTO "Privilege" ("OID_USER", "OID_ITEM", "READ", "CREATE", "MODIFY", "DELETE") 
+	SELECT u."OID", i."OID", FALSE, FALSE, FALSE, FALSE 
+	FROM "COMMON"."User" AS u, "COMMON"."SecureItem" AS i
+	WHERE (u."OID", i."OID") NOT IN (SELECT "OID_USER", "OID_ITEM" FROM "Privilege");
+	
+ALTER TABLE "Gasto" ADD COLUMN "OID_TIPO" bigint;
+
+UPDATE "LineaCaja" SET "FECHA" = "FECHA" + ("NROW" * interval '1 second')
+FROM (SELECT "OID", ROW_NUMBER() OVER (ORDER BY "CODIGO") AS "NROW"
+     FROM "LineaCaja" 
+     ORDER BY "OID", "CODIGO") AS LC
+WHERE "LineaCaja"."OID" = lC."OID";
+

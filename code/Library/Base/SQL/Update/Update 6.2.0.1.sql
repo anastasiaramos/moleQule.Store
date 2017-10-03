@@ -1,0 +1,11 @@
+/* UPDATE 6.2.0.1*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '6.2.0.1' WHERE "NAME" = 'STORE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+UPDATE "Pago" SET "PAGADO" = 'TRUE' 
+	WHERE "Pago"."MEDIO_PAGO" = 1 AND "Pago"."PAGADO" = 'false' 
+		AND "Pago"."TIPO" = 3 AND CAST("Pago"."FECHA" AS DATE) >= "Pago"."VENCIMIENTO"

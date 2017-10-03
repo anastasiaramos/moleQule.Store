@@ -1,0 +1,40 @@
+﻿
+SET SEARCH_PATH = "0001";
+
+/*UPDATE "STLivestockBookLine" SET "OID_CONCEPTO" = IDL."OID", "FECHA" = DL."FECHA" + LL."SERIAL" * INTERVAL '1 second'
+FROM "STLivestockBookLine" AS LL
+INNER JOIN "STDeliveryLine" AS IDL ON IDL."OID_BATCH" = LL."OID_PARTIDA"
+INNER JOIN "STDelivery" AS DL ON DL."OID" = IDL."OID_ALBARAN"
+WHERE LL."TIPO" = 1
+	AND IDL."OID_ALBARAN" IN (743,903,1392,1393,1394, 2361)
+	AND "STLivestockBookLine"."OID" = LL."OID";
+
+UPDATE "STLivestockBookLine" SET "PROCEDENCIA" = 'HOLANDA', "CROTAL" = trim(LL."CROTAL")
+FROM "STLivestockBookLine" AS LL
+INNER JOIN "STDeliveryLine" AS IDL ON IDL."OID_BATCH" = LL."OID_PARTIDA"
+INNER JOIN "STDelivery" AS DL ON DL."OID" = IDL."OID_ALBARAN"
+WHERE LL."TIPO" = 1
+	AND IDL."OID_ALBARAN" IN (2578)
+	AND "STLivestockBookLine"."OID" = LL."OID";
+
+UPDATE "STLivestockBookLine" SET "CROTAL" = trim(LL1."CROTAL")
+FROM "STLivestockBookLine" AS LL
+INNER JOIN "STLivestockBookLine" AS LL1 ON LL1."OID_PARTIDA" = LL."OID_PARTIDA" AND LL1."TIPO" = 1
+WHERE LL."TIPO" = 2 AND LL."CROTAL" LIKE 'NOVILLA%'
+	AND "STLivestockBookLine"."OID" = LL."OID";*/
+
+/*UPDATE "STLivestockBookLine" SET "OID_PAIR" = LL1."OID"
+FROM "STLivestockBookLine" AS LL
+INNER JOIN "STLivestockBookLine" AS LL1 ON LL1."OID_PARTIDA" = LL."OID_PARTIDA" AND LL1."TIPO" = 1
+WHERE LL."TIPO" = 2
+	AND "STLivestockBookLine"."OID" = LL."OID";*/
+
+UPDATE "STLivestockBookLine" 
+SET "SERIAL" = C."NROW", "CODIGO" = trim(to_char(C."NROW", '00000'))
+FROM (SELECT "OID", ROW_NUMBER() OVER (ORDER BY "FECHA", "TIPO") AS "NROW"
+     FROM "0001"."STLivestockBookLine" 
+     ORDER BY "FECHA", "TIPO") AS C
+WHERE "STLivestockBookLine"."OID" = C."OID";
+
+
+	

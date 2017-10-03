@@ -1,0 +1,42 @@
+/* UPDATE 7.5.8.2*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '7.5.8.2' WHERE "NAME" = 'STORE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+CREATE OR REPLACE FUNCTION UpdateBatchIDs() RETURNS SETOF bigint AS
+$BODY$
+DECLARE
+    oidProduct bigint;
+    bYear bigint;
+BEGIN
+	FOR bYear IN ( SELECT DISTINCT EXTRACT(YEAR FROM "FECHA_COMPRA") AS "YEAR" FROM "STBatch" )
+
+	LOOP
+		FOR oidProduct IN (	
+			SELECT DISTINCT BA."OID_PRODUCTO" AS "OID_PRODUCTO"
+			FROM "STBatch" AS BA
+		)
+						
+		LOOP
+			UPDATE "STBatch" 
+			SET "SERIAL" = C."NROW", "CODIGO" = trim(to_char(C."NROW", '00000')) || '/' || substring(CAST(bYear as CHAR(4)), 3, 2), "FECHA_COMPRA" = "FECHA_COMPRA" + (INTERVAL '1 sec' * C."NROW")
+			FROM (SELECT "OID", ROW_NUMBER() OVER (ORDER BY "OID_PRODUCTO", "FECHA_COMPRA") AS "NROW"
+			     FROM "STBatch" 
+			     WHERE EXTRACT(YEAR FROM "FECHA_COMPRA") = bYear
+				AND "OID_PRODUCTO" = oidProduct
+			     ORDER BY "OID_PRODUCTO", "FECHA_COMPRA") AS C
+			WHERE "STBatch"."OID" = C."OID";
+
+			RETURN NEXT oidProduct;
+		END LOOP;
+		RETURN NEXT bYear;
+	END LOOP;
+	RETURN;
+END
+$BODY$
+LANGUAGE 'plpgsql' ;
+
+SELECT * FROM UpdateBatchIDs();

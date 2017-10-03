@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4FF96924-F961-4A53-BC1C-E73D8F9B0B34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>moleQule.Store.Data</RootNamespace>
+    <AssemblyName>moleQule.Store.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="moleQule.Common.Structs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\assemblies\moleQule.Common.Structs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="moleQule.Library, Version=6.3.4.2, Culture=neutral, PublicKeyToken=2ed99e669416e6b4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\assemblies\moleQule.Library.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\..\..\moleQule\packages\NHibernate.3.3.3.4001\lib\Net35\NHibernate.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Map\BatchMap.cs" />
+    <Compile Include="Map\ClientProductMap.cs" />
+    <Compile Include="Map\CustomAgentMap.cs" />
+    <Compile Include="Map\EmployeeMap.cs" />
+    <Compile Include="Map\ExpenseTypeMap.cs" />
+    <Compile Include="Map\FamilyMap.cs" />
+    <Compile Include="Map\FamilySerieMap.cs" />
+    <Compile Include="Map\InputDeliveryLineMap.cs" />
+    <Compile Include="Map\InputDeliveryMap.cs" />
+    <Compile Include="Map\InputInvoiceLineMap.cs" />
+    <Compile Include="Map\InputInvoiceMap.cs" />
+    <Compile Include="Map\InterestRateMap.cs" />
+    <Compile Include="Map\LoanMap.cs" />
+    <Compile Include="Map\PayrollBatchMap.cs" />
+    <Compile Include="Map\PayrollMap.cs" />
+    <Compile Include="Map\ProductMap.cs" />
+    <Compile Include="Map\REAExpedientMap.cs" />
+    <Compile Include="Map\ExpedientMap.cs" />
+    <Compile Include="Map\ExpenseMap.cs" />
+    <Compile Include="Map\LineaFomentoMap.cs" />
+    <Compile Include="Map\PaymentMap.cs" />
+    <Compile Include="Map\SerieMap.cs" />
+    <Compile Include="Map\ShippingCompanyMap.cs" />
+    <Compile Include="Map\StockMap.cs" />
+    <Compile Include="Map\SupplierMap.cs" />
+    <Compile Include="Map\ToolMap.cs" />
+    <Compile Include="Map\WorkReportCategoryMap.cs" />
+    <Compile Include="Map\WorkReportMap.cs" />
+    <Compile Include="Map\WorkReportResourceMap.cs" />
+    <Compile Include="Record\ClientProductRecord.cs" />
+    <Compile Include="Record\TransactionPaymentRecord.cs" />
+    <Compile Include="Map\TransactionPaymentMap.cs" />
+    <Compile Include="Map\TransporterMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Record\BatchRecord.cs" />
+    <Compile Include="Record\CustomAgentRecord.cs" />
+    <Compile Include="Record\EmployeeRecord.cs" />
+    <Compile Include="Record\ExpedientRecord.cs" />
+    <Compile Include="Record\ExpenseRecord.cs" />
+    <Compile Include="Record\FamilyRecord.cs" />
+    <Compile Include="Record\InputDeliveryLineRecord.cs" />
+    <Compile Include="Record\InputDeliveryRecord.cs" />
+    <Compile Include="Record\InputInvoiceRecord.cs" />
+    <Compile Include="Record\InputInvoiceLineRecord.cs" />
+    <Compile Include="Record\InterestRateRecord.cs" />
+    <Compile Include="Record\LineaFomentoRecord.cs" />
+    <Compile Include="Record\LoanRecord.cs" />
+    <Compile Include="Record\PaymentRecord.cs" />
+    <Compile Include="Record\PayrollRecord.cs" />
+    <Compile Include="Record\PayrollBatchRecord.cs" />
+    <Compile Include="Record\ProductRecord.cs" />
+    <Compile Include="Record\REAExpedientRecord.cs" />
+    <Compile Include="Record\FamilySerieRecord.cs" />
+    <Compile Include="Record\SerieRecord.cs" />
+    <Compile Include="Record\ShippingCompanyRecord.cs" />
+    <Compile Include="Record\StockRecord.cs" />
+    <Compile Include="Record\SupplierRecord.cs" />
+    <Compile Include="Record\ProviderBaseRecord.cs" />
+    <Compile Include="Record\ExpenseTypeRecord.cs" />
+    <Compile Include="Record\ToolRecord.cs" />
+    <Compile Include="Record\TransporterRecord.cs" />
+    <Compile Include="Record\WorkReportRecord.cs" />
+    <Compile Include="Record\WorkReportCategoryRecord.cs" />
+    <Compile Include="Record\WorkReportResourceRecord.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>call "$(DevEnvDir)..\Tools\vsvars32.bat"
+gacutil /u "$(TargetName)"
+rem gacutil /i "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

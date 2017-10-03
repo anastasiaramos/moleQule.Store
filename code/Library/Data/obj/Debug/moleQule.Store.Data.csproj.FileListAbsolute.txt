@@ -1,0 +1,5 @@
+C:\VS Projects Git\assemblies\moleQule.Store.Data.dll
+C:\VS Projects Git\assemblies\moleQule.Store.Data.pdb
+C:\VS Projects Git\moleQule.Store\code\Library\Data\obj\Debug\moleQule.Store.Data.dll
+C:\VS Projects Git\moleQule.Store\code\Library\Data\obj\Debug\moleQule.Store.Data.pdb
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Data\obj\Debug\moleQule.Store.Data.pdb

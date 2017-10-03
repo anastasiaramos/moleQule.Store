@@ -1,0 +1,96 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="moleQule.Library.Store.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SETTING_NAME_DEFAULT_SERIE_COMPRA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_SERIE_COMPRA</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_FLETE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_FLETE</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_T3ORIGEN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_T3ORIGEN</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_T3DESTINO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_T3DESTINO</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_THCORIGEN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_THCORIGEN</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_THCDESTINO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_THCDESTINO</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_ISPS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_ISPS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_BAF" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_BAF</Value>
+    </Setting>
+    <Setting Name="FOTO_EMPLEADO_PATH" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\Fotos\Empleados\</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_NOMINAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_NOMINAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_SEGUROS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_SEGUROS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_IRPF" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_IRPF</Value>
+    </Setting>
+    <Setting Name="DB_VERSION_VARIABLE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">STORE_DB_VERSION</Value>
+    </Setting>
+    <Setting Name="NAME" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">STORE</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_PLAZO_PAGOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_PLAZO_PAGOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_GASTOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_GASTOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_PLAZO_GASTOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_PLAZO_GASTOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_PAGOS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_PAGOS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_FACTURAS_RECIBIDAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_FACTURAS_RECIBIDAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_NOTIFY_PLAZO_FACTURAS_RECIBIDAS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NOTIFY_PLAZO_FACTURAS_RECIBIDAS</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_TIPO_FACTURACION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_TIPO_FACTURACION</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_TIPO_DESCUENTO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_TIPO_DESCUENTO</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CONTROL_STOCK_NEGATIVO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CONTROL_STOCK_NEGATIVO</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_DEFAULT_ALMACEN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DEFAULT_ALMACEN</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_AYUDA_FOMENTO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AYUDA_FOMENTO</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_AYUDA_REA" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AYUDA_REA</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_AYUDA_POSEI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AYUDA_POSEI</Value>
+    </Setting>
+    <Setting Name="SETTING_NAME_CODIGO_PRODUCTO_AUTOMATICO" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CODIGO_PRODUCTO_AUTOMATICO</Value>
+    </Setting>
+    <Setting Name="MODULE_VERSION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4.5.0.0</Value>
+    </Setting>
+    <Setting Name="DB_VERSION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">7.6.0.2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

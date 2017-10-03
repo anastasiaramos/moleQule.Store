@@ -1,0 +1,16 @@
+C:\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Store.csprojResolveAssemblyReference.cache
+C:\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.SecureItems.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Properties.Resources.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.Defaults.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.Labels.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.Messages.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.Labels.en.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Store.csproj.GenerateResource.Cache
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Store.csprojResolveAssemblyReference.cache
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.SecureItems.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Properties.Resources.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.Defaults.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.Labels.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.Messages.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Library.Store.Resources.Labels.en.resources
+C:\Users\Anastasia\Documents\VS Projects Git\moleQule.Store\code\Library\Base\obj\Debug\moleQule.Store.csproj.GenerateResource.Cache

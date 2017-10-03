@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACTUALIZANDO_STOCKS" xml:space="preserve">
+    <value>Guardando y actualizando stocks...</value>
+  </data>
+  <data name="ALBARANES_ASOCIADOS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen albaranes asociados.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="ALBARAN_NO_ANULADO" xml:space="preserve">
+    <value>No es posible eliminar un albarán con estado distinto de 'Abierto'</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="AVISO_STOCK_NEGATIVO" xml:space="preserve">
+    <value>"ATENCION: Los cambios que está realizando darían lugar a stock negativo por lo que no podrá continuar. Asegúrese de que los valores que está introduciendo son los correctos."</value>
+  </data>
+  <data name="BORRADO_PRODUCTO_ASOCIADO" xml:space="preserve">
+    <value>Eliminado el producto {0} con precio {1} por el usuario {2}</value>
+  </data>
+  <data name="CIERRE_CAJA_PAGO" xml:space="preserve">
+    <value>Imposible eliminar un pago incluido en un cierre de caja</value>
+  </data>
+  <data name="DELETE_LINEA_FOMENTO_NOT_ALLOWED" xml:space="preserve">
+    <value>No es posible eliminar una línea de fomento con estado distinto de ABIERTO</value>
+  </data>
+  <data name="DELETE_LIVESTOCK_LINE_NOT_ALLOWED" xml:space="preserve">
+    <value>No es posible eliminar una línea de este tipo</value>
+  </data>
+  <data name="DELETE_REA_NOT_ALLOWED" xml:space="preserve">
+    <value>No es posible eliminar un expediente REA con cobros asociados</value>
+  </data>
+  <data name="DELETE_TIPOGASTO_NOT_ALLOWED" xml:space="preserve">
+    <value>No es posible borrar este elemento. Existen gastos asociados.</value>
+  </data>
+  <data name="EDITADO_PRODUCTO_ASOCIADO" xml:space="preserve">
+    <value>Modificado el producto {0} al precio {1} por el usuario {2}</value>
+  </data>
+  <data name="ENTRADA_POR_ALBARAN" xml:space="preserve">
+    <value>Entrada por Albarán {0}</value>
+  </data>
+  <data name="ENTRADA_POR_MOVIMIENTO" xml:space="preserve">
+    <value>Entrada desde Expediente {0}</value>
+  </data>
+  <data name="ERROR_FACTURA_CUENTA" xml:space="preserve">
+    <value>Imposible exportar la factura nº {0} de {1}. Revise las cuentas contables asociadas.</value>
+  </data>
+  <data name="ERROR_FACTURA_IMPUESTO" xml:space="preserve">
+    <value>Imposible exportar la factura nº {0} de {1}. Revise los impuestos asociados.</value>
+  </data>
+  <data name="EXPEDIENTES_ASOCIADOS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen expedientes asociados.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="EXPEDIENTE_REA_DUPLICATED" xml:space="preserve">
+    <value>Existe un expediente para el código aduanero {0} creado previamente.</value>
+  </data>
+  <data name="FACTURAS_ASOCIADAS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen facturas asociadas.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="FACTURA_NO_ANULADA" xml:space="preserve">
+    <value>No es posible eliminar una factura con estado distinto de 'Abierto'</value>
+  </data>
+  <data name="FACTURA_RECIBIDA_DUPLICADA" xml:space="preserve">
+    <value>Existe una factura previa de {0} con el mismo número. ¿Continuar con la operación?</value>
+  </data>
+  <data name="FACTURA_SIN_CONCEPTOS" xml:space="preserve">
+    <value>La factura seleccionada no contiene ningún concepto</value>
+  </data>
+  <data name="GASTOS_ASOCIADOS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen gastos asociadas.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="GASTO_ASOCIADO" xml:space="preserve">
+    <value>Gasto asociado a {0}</value>
+  </data>
+  <data name="GASTO_NOMINA" xml:space="preserve">
+    <value>Nómina de {0}</value>
+  </data>
+  <data name="GASTO_NOMINA_IRPF_EMPLEADO" xml:space="preserve">
+    <value>IRPF de {0}</value>
+  </data>
+  <data name="GASTO_NOMINA_SEGURO" xml:space="preserve">
+    <value>Seguro Social de {0}</value>
+  </data>
+  <data name="ID_PEDIDO_INVALIDO" xml:space="preserve">
+    <value>Número de Pedido incorrecto.
+Debe tener el formato "{0}"</value>
+  </data>
+  <data name="KIT_ENTRY_NOT_ALLOWED" xml:space="preserve">
+    <value>Ha seleccionado un producto compuesto por diversos componentes. Para dar de alta partidas de este producto debe hacerlo con cada uno de los componentes por separado.</value>
+  </data>
+  <data name="LINEA_FOMENTO_DUPLICATED" xml:space="preserve">
+    <value>Existe una línea de fomento para el código aduanero {0} creada previamente.</value>
+  </data>
+  <data name="LIVESTOCKLINE_NOT_FOUND" xml:space="preserve">
+    <value>No se ha encontrado la entrada correspondiente al concepto {0} en el libro ganadero</value>
+  </data>
+  <data name="LOAN_WITH_PAYMENTS" xml:space="preserve">
+    <value>No es posible modificar un préstamo con pagos asociados</value>
+  </data>
+  <data name="NOMINAS_ASOCIADAS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen nóminas asociadas.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="NO_ACREEDOR_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ningún acreedor</value>
+  </data>
+  <data name="NO_AGENTE_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ningún acreedor</value>
+  </data>
+  <data name="NO_CATEGORIA_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ninguna categoría</value>
+  </data>
+  <data name="NO_CUENTA_BANCARIA_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ninguna cuenta bancaria</value>
+  </data>
+  <data name="NO_DESCRIPCION" xml:space="preserve">
+    <value>No se ha rellenado el campo de Descripción.</value>
+  </data>
+  <data name="NO_FIELD_SELECTED" xml:space="preserve">
+    <value>No ha seleccionado {0}</value>
+  </data>
+  <data name="NO_ID" xml:space="preserve">
+    <value>No se ha rellando el campo Código.</value>
+  </data>
+  <data name="NO_ID_SELECTED" xml:space="preserve">
+    <value>Debe indicar un Código válido</value>
+  </data>
+  <data name="NO_KILOS_BULTOS_SELECTED" xml:space="preserve">
+    <value>Es necesario indicar el número de bultos y de Kg</value>
+  </data>
+  <data name="NO_KILOS_INICIALES" xml:space="preserve">
+    <value>No es posible insertar una partidad con una cantidad menor que 1</value>
+  </data>
+  <data name="NO_MEDIO_PAGO_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado el medio de pago</value>
+  </data>
+  <data name="NO_NAME" xml:space="preserve">
+    <value>No se ha rellenado el campo de Nombre.</value>
+  </data>
+  <data name="NO_NUMEROFACTURA_SELECTED" xml:space="preserve">
+    <value>Debe indicar el Nº de Factura del Acreedor</value>
+  </data>
+  <data name="NO_PRODUCTO_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ningún producto</value>
+  </data>
+  <data name="NO_PROVEEDOR_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ningún proveedor</value>
+  </data>
+  <data name="NO_SERIE_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ninguna serie</value>
+  </data>
+  <data name="NO_TARJETA_CREDITO_SELECTED" xml:space="preserve">
+    <value>No se ha seleccionado ninguna tarjeta de crédito</value>
+  </data>
+  <data name="NO_TIPOGASTO_IRPF" xml:space="preserve">
+    <value>No se ha definido el tipo de gasto asociado al IRPF.
+Para crear nóminas es preciso indicarlo, puede hacerlo en "Herramientas-&gt;Opciones-&gt;Nóminas".</value>
+  </data>
+  <data name="NO_TIPOGASTO_NOMINAS" xml:space="preserve">
+    <value>No se ha definido el tipo de gasto asociado a las nóminas.
+Para crear nóminas es preciso indicarlo, puede hacerlo en "Herramientas-&gt;Opciones-&gt;Nóminas".</value>
+  </data>
+  <data name="NO_TIPOGASTO_SEGUROS" xml:space="preserve">
+    <value>No se ha definido el tipo de gasto asociado a los seguros sociales.
+Para crear nóminas es preciso indicarlo, puede hacerlo en "Herramientas-&gt;Opciones-&gt;Nóminas".</value>
+  </data>
+  <data name="NUEVO_PRODUCTO_ASOCIADO" xml:space="preserve">
+    <value>Asociado el producto {0} con el precio {1} por el usuario {2}</value>
+  </data>
+  <data name="PAGOS_ASOCIADOS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen pagos asociados.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="PARTIDAS_ASOCIADAS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen partidas asociadas.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="PARTIDAS_STOCK_NEGATIVO" xml:space="preserve">
+    <value>ATENCIÓN: Las siguientes Partidas tienen Stock negativo:
+</value>
+  </data>
+  <data name="PARTIDA_ASOCIADA" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existe una partida asociada.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="PRODUCTOS_ASOCIADOS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen productos asociados.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="SALIDA_POR_ALBARAN_RECTIFICATIVO" xml:space="preserve">
+    <value>Salida por Albarán rectificativo {0}</value>
+  </data>
+  <data name="SALIDA_POR_MERMA" xml:space="preserve">
+    <value>Salida por Merma</value>
+  </data>
+  <data name="SALIDA_POR_MOVIMIENTO" xml:space="preserve">
+    <value>Salida al Expediente {0}</value>
+  </data>
+  <data name="SERIES_ASOCIADAS" xml:space="preserve">
+    <value>No es posible eliminar este registro del sistema. Existen series asociadas.</value>
+    <comment>IsPosibleDelete()</comment>
+  </data>
+  <data name="STOCK_INSUFICIENTE" xml:space="preserve">
+    <value>Stock insuficiente. 
+
+Si desea vender sin control de stock active la opción en la ficha del producto.</value>
+  </data>
+  <data name="STOCK_INSUFICIENTE_PRODUCTO" xml:space="preserve">
+    <value>Stock insuficiente de {0}
+
+Si desea vender sin control de stock active la opción en la ficha del producto.</value>
+  </data>
+  <data name="STOCK_PRODUCT_WITHOUT_STORE" xml:space="preserve">
+    <value>Ha seleccionado un producto con control de stock y no ha indicado el almacén de entrada. Seleccione un almacén para dar de alta a la partida.</value>
+  </data>
+  <data name="STOCK_RETURN_WITHOUT_BATCH" xml:space="preserve">
+    <value>Está intentando devolver un producto y no ha indicado la partida de entrada asociada. Seleccione una partida a la que descontar el stock.</value>
+  </data>
+  <data name="VENCIMIENTO_TARJETA_CON_EXTRACTO" xml:space="preserve">
+    <value>El pago actual está incluido en un extracto de la tarjeta de crédito que ya ha sido pagado, con lo cual no es posible modificar la fecha de vencimiento.</value>
+  </data>
+</root>

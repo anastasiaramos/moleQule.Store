@@ -1,0 +1,3 @@
+C:\VS Projects Git\moleQule.Store\code\Library\Loan\obj\Debug\moleQule.Library.Loan.csprojResolveAssemblyReference.cache
+C:\VS Projects Git\moleQule.Store\code\Library\Loan\obj\Debug\moleQule.Library.Loan.Resources.Defaults.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Loan\obj\Debug\moleQule.Library.Loan.csproj.GenerateResource.Cache

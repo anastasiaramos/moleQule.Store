@@ -1,0 +1,8 @@
+C:\VS Projects Git\moleQule.Store\code\Library\Serie\obj\Debug\moleQule.Serie.csprojResolveAssemblyReference.cache
+C:\VS Projects Git\moleQule.Store\code\Library\Serie\obj\Debug\moleQule.Serie.Resources.Messages.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Serie\obj\Debug\moleQule.Serie.Resources.SecureItems.resources
+C:\VS Projects Git\moleQule.Store\code\Library\Serie\obj\Debug\moleQule.Serie.csproj.GenerateResource.Cache
+C:\VS Projects Git\assemblies\moleQule.Serie.dll
+C:\VS Projects Git\assemblies\moleQule.Serie.pdb
+C:\VS Projects Git\moleQule.Store\code\Library\Serie\obj\Debug\moleQule.Serie.dll
+C:\VS Projects Git\moleQule.Store\code\Library\Serie\obj\Debug\moleQule.Serie.pdb

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="moleQule.Library.Store">
+  <modules>
+    <module name="AlbaranFacturaProveedor" />
+    <module name="AlbaranProveedor" />
+    <module name="Almacen" />
+    <module name="Cabeza" />
+    <module name="ConceptoAlbaranProveedor" />
+    <module name="ConceptoFacturaRecibida" />
+    <module name="Despachante" />
+    <module name="Empleado" />
+    <module name="Expediente" />
+    <module name="ExpedienteREA" />
+    <module name="FacturaRecibida" />
+    <module name="Familia" />
+    <module name="Gasto" />
+    <module name="InventarioAlmacen" />
+    <module name="LibroGanadero" />
+    <module name="LineaAlmacen" />
+    <module name="LineaFomento" />
+    <module name="LineaInventario" />
+    <module name="LineaLibroGanadero" />
+    <module name="LineaPedidoProveedor" />
+    <module name="Maquinaria" />
+    <module name="Naviera" />
+    <module name="Nomina" />
+    <module name="Pago" />
+    <module name="PagoFactura" />
+    <module name="Partida" />
+    <module name="PedidoProveedor" />
+    <module name="PrecioDestino" />
+    <module name="PrecioOrigen" />
+    <module name="PrecioTrayecto" />
+    <module name="Producto" />
+    <module name="ProductoProveedor" />
+    <module name="Proveedor" />
+    <module name="Puerto" />
+    <module name="PuertoDespachante" />
+    <module name="RazaAnimal" />
+    <module name="RemesaNomina" />
+    <module name="Serie" />
+    <module name="SerieFamilia" />
+    <module name="Stock" />
+    <module name="TipoAnimal" />
+    <module name="TipoGanado" />
+    <module name="TipoGasto" />
+    <module name="Tool" />
+    <module name="Transportista" />
+    <module name="WorkReport" />
+  </modules>
+</project>

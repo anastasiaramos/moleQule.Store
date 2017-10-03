@@ -1,0 +1,3209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SEIS_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CERO_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Progress_PB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;PrecioVenta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Valor_TB.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="AyudaKilo.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="N_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ValorIni_TB.Parent" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="&gt;&gt;Valor_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Search_Panel.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;A_BT.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="Content_Panel.Panel2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Progress_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>TopicId</value>
+  </data>
+  <data name="CUATRO_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;U_BT.Name" xml:space="preserve">
+    <value>U_BT</value>
+  </data>
+  <data name="B_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Q_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CINCO_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;CUATRO_BT.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Operador_CB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="NUEVE_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="K_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;OCHO_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CINCO_BT.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="T_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Letras_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;D_BT.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="TRES_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OCHO_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Main_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;R_BT.Name" xml:space="preserve">
+    <value>R_BT</value>
+  </data>
+  <data name="&gt;&gt;X_BT.Name" xml:space="preserve">
+    <value>X_BT</value>
+  </data>
+  <data name="Filters_LB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Q_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="I_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DOS_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TRES_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="SEIS_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Valor_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ValorIni_TB.Name" xml:space="preserve">
+    <value>ValorIni_TB</value>
+  </data>
+  <data name="&gt;&gt;Tabla.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Fields_CB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;M_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ProgressInfo_PB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 234</value>
+  </data>
+  <data name="&gt;&gt;TRES_BT.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Progress_PB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="M_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Letras_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Letras_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;OCHO_BT.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SIETE_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CancelBkJob_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Content_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Tabla.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Descripcion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;O_BT.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="BuscarPor_LB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Search_Panel.Panel1.Name" xml:space="preserve">
+    <value>Search_Panel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Animation.Name" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="Progress_PB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CUATRO_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;M_BT.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="CUATRO_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;D_BT.Name" xml:space="preserve">
+    <value>D_BT</value>
+  </data>
+  <data name="ValorIni_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Z_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Descripcion.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="Descripcion.HeaderText" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="D_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Title_LB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Fields_CB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;S_BT.Name" xml:space="preserve">
+    <value>S_BT</value>
+  </data>
+  <data name="&gt;&gt;Y_BT.Name" xml:space="preserve">
+    <value>Y_BT</value>
+  </data>
+  <data name="FilterOff_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="D_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Title_LB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DOS_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="V_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CancelBkJob_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Animation.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;E_BT.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="M_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Campos_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Search_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;SEIS_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="L_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Progress_PB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DatosLocal_BS.Name" xml:space="preserve">
+    <value>DatosLocal_BS</value>
+  </data>
+  <data name="Main_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Search_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Valor_TB.Parent" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="B_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Search_Panel.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NUEVE_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="BuscarPor_LB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BuscarPor_LB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SIETE_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Letras_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;TRES_BT.Name" xml:space="preserve">
+    <value>TRES_BT</value>
+  </data>
+  <data name="Campos_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Y_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Search_TB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Tabla.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Fields_CB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Progress_PB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TipoFacturacionLabel.HeaderText" xml:space="preserve">
+    <value>Tipo Venta</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FilterOff_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Fields_CB.Parent" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="&gt;&gt;R_BT.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;F_BT.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;B_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;CUATRO_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Panel1.Parent" xml:space="preserve">
+    <value>Main_Panel</value>
+  </data>
+  <data name="&gt;&gt;ValorIni_TB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Fields_CB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OCHO_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="F_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UNO_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FilterOffTop_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Z_BT.Name" xml:space="preserve">
+    <value>Z_BT</value>
+  </data>
+  <data name="D_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="D_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="K_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ProductMngForm</value>
+  </data>
+  <data name="&gt;&gt;Search_Panel.Panel2.Name" xml:space="preserve">
+    <value>Search_Panel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;AdvSearch_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="H_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="X_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Valor_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProgressInfo_PB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CUATRO_BT.Name" xml:space="preserve">
+    <value>CUATRO_BT</value>
+  </data>
+  <data name="FilterOn_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Search_Panel.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Search_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 76</value>
+  </data>
+  <data name="X_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;L_BT.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="A_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;PrecioCompra.Name" xml:space="preserve">
+    <value>PrecioCompra</value>
+  </data>
+  <data name="Q_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NUEVE_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;D_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;NUEVE_BT.Name" xml:space="preserve">
+    <value>NUEVE_BT</value>
+  </data>
+  <data name="M_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FilterOffTop_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ProgressInfo_PB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;S_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="F_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="F_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GN_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;FilterOff_BT.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Main_Panel.Panel1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GN_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Y_BT.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="O_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tabla.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CancelBkJob_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Letras_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Q_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="G_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="A_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Main_Panel.Panel2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tabla.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;SIETE_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="A_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Nombre.MinimumWidth" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <data name="Z_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Observaciones.Name" xml:space="preserve">
+    <value>Observaciones</value>
+  </data>
+  <data name="&gt;&gt;AdvSearch_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProgressMsg_LB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="X_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="O_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;DatosSearch.Name" xml:space="preserve">
+    <value>DatosSearch</value>
+  </data>
+  <data name="O_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Title_LB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Progress_PB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Content_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProgressBK_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 362</value>
+  </data>
+  <data name="J_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GN_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressInfo_PB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ValorFin_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Z_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Search_Panel.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="OCHO_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="G_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BuscarPor_LB.Name" xml:space="preserve">
+    <value>BuscarPor_LB</value>
+  </data>
+  <data name="&gt;&gt;Search_Panel.Panel1.Parent" xml:space="preserve">
+    <value>Search_Panel</value>
+  </data>
+  <data name="Search_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ErrorMng_EP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Q_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="H_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CodigoArticuloAcreedor.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="U_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Operador_CB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="X_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CancelBkJob_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="S_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FilterOn_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Search_Panel.Panel2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="X_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;FilterOff_BT.Parent" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="Search_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="L_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;R_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;X_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Y_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="BuscarPor_LB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;L_BT.Name" xml:space="preserve">
+    <value>L_BT</value>
+  </data>
+  <data name="&gt;&gt;IsKit.Name" xml:space="preserve">
+    <value>IsKit</value>
+  </data>
+  <data name="Campos_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="N_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="Search_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TRES_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="E_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Operador_CB.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;E_BT.Name" xml:space="preserve">
+    <value>E_BT</value>
+  </data>
+  <data name="FilterOn_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="M_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Content_Panel.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DOS_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Nombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;F_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>moleQule.Face.Store.ProductMngBaseForm, moleQule.Face.Store, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="L_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="FilterOn_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="SIETE_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Title_LB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="L_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Main_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UNO_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Filters_LB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="I_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FilterOn_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="G_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ValorFin_TB.Parent" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="&gt;&gt;ValorFin_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="M_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DOS_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Descripcion.Name" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="&gt;&gt;Progress_PB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Main_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;S_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Y_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="A_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CUATRO_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FilterOffTop_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Progress_PB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="F_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Progress_Panel.Name" xml:space="preserve">
+    <value>Progress_Panel</value>
+  </data>
+  <data name="AyudaKilo.HeaderText" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Search_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;C_BT.Name" xml:space="preserve">
+    <value>C_BT</value>
+  </data>
+  <data name="&gt;&gt;Content_Panel.Panel1.Name" xml:space="preserve">
+    <value>Content_Panel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;L_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;N_BT.Name" xml:space="preserve">
+    <value>N_BT</value>
+  </data>
+  <data name="W_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;S_BT.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="CodigoAduanero.HeaderText" xml:space="preserve">
+    <value>Código Aduanero</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Artículos / Servicios</value>
+  </data>
+  <data name="&gt;&gt;SEIS_BT.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="P_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="O_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Content_Panel.Panel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ValorFin_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;SEIS_BT.Name" xml:space="preserve">
+    <value>SEIS_BT</value>
+  </data>
+  <data name="&gt;&gt;Search_Panel.Panel2.Parent" xml:space="preserve">
+    <value>Search_Panel</value>
+  </data>
+  <data name="PrecioCompra.HeaderText" xml:space="preserve">
+    <value>Precio Compra</value>
+  </data>
+  <data name="ProgressInfo_PB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CERO_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="P_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;OCHO_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;TRES_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="SIETE_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsKit.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;Filters_LB.Parent" xml:space="preserve">
+    <value>Search_Panel.Panel2</value>
+  </data>
+  <data name="Search_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;ProgressMsg_LB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Familia.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="ValorIni_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SaveFile_SFD.Name" xml:space="preserve">
+    <value>SaveFile_SFD</value>
+  </data>
+  <data name="FilterOffTop_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CodigoArticuloAcreedor.HeaderText" xml:space="preserve">
+    <value>ID Artículo Proveedor</value>
+  </data>
+  <data name="Main_Panel.Panel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Content_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Tabla.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="R_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ValorFin_TB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Letras_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="L_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Z_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BuscarPor_LB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Filters_LB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 4</value>
+  </data>
+  <data name="S_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;CancelBkJob_BT.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BuscarPor_LB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;G_BT.Name" xml:space="preserve">
+    <value>G_BT</value>
+  </data>
+  <data name="&gt;&gt;Letras_Panel.Name" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;ProgressMsg_LB.Name" xml:space="preserve">
+    <value>ProgressMsg_LB</value>
+  </data>
+  <data name="FilterOn_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="T_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Progress_PB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Valor_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressBK_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Main_Panel.Panel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Animation.Parent" xml:space="preserve">
+    <value>Progress_Panel</value>
+  </data>
+  <data name="&gt;&gt;TipoFacturacionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tabla.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 25</value>
+  </data>
+  <data name="Z_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Search_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="J_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="ProgressMsg_LB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="E_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;AyudaKilo.Name" xml:space="preserve">
+    <value>AyudaKilo</value>
+  </data>
+  <data name="&gt;&gt;Campos_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;I_BT.Name" xml:space="preserve">
+    <value>I_BT</value>
+  </data>
+  <data name="O_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UNO_BT.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Content_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SIETE_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Progress_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Animation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="C_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CancelBkJob_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CERO_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UNO_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FilterOffTop_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="G_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ValorFin_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;F_BT.Name" xml:space="preserve">
+    <value>F_BT</value>
+  </data>
+  <data name="Search_Panel.Panel1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Search_Panel.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Operador_CB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Search_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Operador_CB.Name" xml:space="preserve">
+    <value>Operador_CB</value>
+  </data>
+  <data name="Main_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Tabla.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;GN_BT.Name" xml:space="preserve">
+    <value>GN_BT</value>
+  </data>
+  <data name="Operador_CB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OCHO_BT.Name" xml:space="preserve">
+    <value>OCHO_BT</value>
+  </data>
+  <data name="BuscarPor_LB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Progress_PB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Filters_LB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="T_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>984, 362</value>
+  </data>
+  <data name="ProgressMsg_LB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Tabla.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Campos_Panel.Parent" xml:space="preserve">
+    <value>Search_Panel.Panel2</value>
+  </data>
+  <data name="H_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Codigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="V_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;P_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="ProgressInfo_PB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Content_Panel.SplitterDistance" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="N_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Campos_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 0</value>
+  </data>
+  <data name="&gt;&gt;ProgressBK_Panel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="A_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="K_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;DatosSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;T_BT.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;N_BT.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Filters_LB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;CodigoAduanero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CINCO_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;T_BT.Name" xml:space="preserve">
+    <value>T_BT</value>
+  </data>
+  <data name="Search_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="AdvSearch_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Animation.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Main_Panel.Panel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="AdvSearch_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;CodigoFamilia.Name" xml:space="preserve">
+    <value>CodigoFamilia</value>
+  </data>
+  <data name="J_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;J_BT.Name" xml:space="preserve">
+    <value>J_BT</value>
+  </data>
+  <data name="&gt;&gt;Content_Panel.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UNO_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CUATRO_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Title_LB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="I_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Content_Panel.Panel2.Name" xml:space="preserve">
+    <value>Content_Panel.Panel2</value>
+  </data>
+  <data name="&gt;&gt;G_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;CERO_BT.Name" xml:space="preserve">
+    <value>CERO_BT</value>
+  </data>
+  <data name="F_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FilterOff_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Q_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;FilterOn_BT.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Search_Panel.Panel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NUEVE_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;E_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CancelBkJob_BT.Parent" xml:space="preserve">
+    <value>Progress_Panel</value>
+  </data>
+  <data name="GN_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;V_BT.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ProgressMsg_LB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Search_TB.Name" xml:space="preserve">
+    <value>Search_TB</value>
+  </data>
+  <data name="$this.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;N_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="K_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="TRES_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Valor_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;I_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="U_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Content_Panel.Panel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Animation.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="C_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="V_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Familia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.HelpKeyword" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Main_Panel.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Search_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;K_BT.Name" xml:space="preserve">
+    <value>K_BT</value>
+  </data>
+  <data name="CINCO_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Observaciones.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;Search_Panel.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SEIS_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="C_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Main_Panel.Name" xml:space="preserve">
+    <value>Main_Panel</value>
+  </data>
+  <data name="Search_Panel.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;M_BT.Name" xml:space="preserve">
+    <value>M_BT</value>
+  </data>
+  <data name="Codigo.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="H_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Tabla.Name" xml:space="preserve">
+    <value>Tabla</value>
+  </data>
+  <data name="X_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;K_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsKit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Content_Panel.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="A_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Fields_CB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Content_Panel.Name" xml:space="preserve">
+    <value>Content_Panel</value>
+  </data>
+  <data name="OCHO_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ProgressInfo_PB.Name" xml:space="preserve">
+    <value>ProgressInfo_PB</value>
+  </data>
+  <data name="SEIS_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;V_BT.Name" xml:space="preserve">
+    <value>V_BT</value>
+  </data>
+  <data name="&gt;&gt;B_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FilterOffTop_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;R_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;X_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="Z_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Datos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="W_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="L_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ProgressBK_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Campos_Panel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GN_BT.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;CodigoArticuloAcreedor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CINCO_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="Animation.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Tabla.Parent" xml:space="preserve">
+    <value>Content_Panel.Panel1</value>
+  </data>
+  <data name="GN_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdvSearch_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;U_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="Tabla.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="L_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;H_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="I_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="E_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="R_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Y_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;FilterOffTop_BT.Name" xml:space="preserve">
+    <value>FilterOffTop_BT</value>
+  </data>
+  <data name="ProgressBK_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SIETE_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Y_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;AyudaKilo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Content_Panel.Panel2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Q_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="R_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;G_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CINCO_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Progress_PB.Name" xml:space="preserve">
+    <value>Progress_PB</value>
+  </data>
+  <data name="Progress_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 172</value>
+  </data>
+  <data name="Familia.HeaderText" xml:space="preserve">
+    <value>Familia</value>
+  </data>
+  <data name="Fields_CB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BuscarPor_LB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;G_BT.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider.Name" xml:space="preserve">
+    <value>HelpProvider</value>
+  </data>
+  <data name="&gt;&gt;Title_LB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FilterOff_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Progress_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="H_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="DOS_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;I_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HelpProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FilterOn_BT.Parent" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="GN_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Search_Panel.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;BuscarPor_LB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;A_BT.Name" xml:space="preserve">
+    <value>A_BT</value>
+  </data>
+  <data name="&gt;&gt;CancelBkJob_BT.Name" xml:space="preserve">
+    <value>CancelBkJob_BT</value>
+  </data>
+  <data name="R_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="P_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Letras_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Content_Panel.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="T_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Content_Panel.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;I_BT.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Tabla.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;V_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="ProgressMsg_LB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;E_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="G_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DatosLocal_BS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ValorIni_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;CodigoFamilia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CERO_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Letras_Panel.Parent" xml:space="preserve">
+    <value>Search_Panel.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Filters_LB.Name" xml:space="preserve">
+    <value>Filters_LB</value>
+  </data>
+  <data name="D_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="FilterOff_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;T_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProgressInfo_PB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Z_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="FilterOff_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Search_Panel.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="S_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Fields_CB.Name" xml:space="preserve">
+    <value>Fields_CB</value>
+  </data>
+  <data name="label1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Progress_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;UNO_BT.Name" xml:space="preserve">
+    <value>UNO_BT</value>
+  </data>
+  <data name="PrecioCompra.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="Main_Panel.Panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Tabla.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="H_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Content_Panel.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GN_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;NUEVE_BT.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Observaciones.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="E_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Title_LB.Name" xml:space="preserve">
+    <value>Title_LB</value>
+  </data>
+  <data name="&gt;&gt;W_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;CUATRO_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="IsKit.HeaderText" xml:space="preserve">
+    <value>Kit</value>
+  </data>
+  <data name="&gt;&gt;Content_Panel.Panel2.Parent" xml:space="preserve">
+    <value>Content_Panel</value>
+  </data>
+  <data name="&gt;&gt;J_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main_Panel.Panel2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Main_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Z_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="AdvSearch_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Filters_LB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="R_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Search_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CERO_BT.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;O_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="J_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;NUEVE_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CERO_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Search_Panel.Panel1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="G_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ProgressBK_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B_BT.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="T_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="R_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;PrecioVenta.Name" xml:space="preserve">
+    <value>PrecioVenta</value>
+  </data>
+  <data name="S_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Q_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;U_BT.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Progress_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="CUATRO_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Operador_CB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CancelBkJob_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Main_Panel.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Filters_LB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="U_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Q_BT.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="CodigoFamilia.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="ValorFin_TB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="H_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ValorFin_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="N_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ProgressInfo_PB.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SIETE_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="O_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="UNO_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;J_BT.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="J_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ProgressBK_Panel.Name" xml:space="preserve">
+    <value>ProgressBK_Panel</value>
+  </data>
+  <data name="Progress_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Title_LB.Parent" xml:space="preserve">
+    <value>Progress_Panel</value>
+  </data>
+  <data name="J_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;K_BT.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="K_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;B_BT.Name" xml:space="preserve">
+    <value>B_BT</value>
+  </data>
+  <data name="N_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Search_Panel.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FilterOff_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OCHO_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Search_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CINCO_BT.Name" xml:space="preserve">
+    <value>CINCO_BT</value>
+  </data>
+  <data name="Main_Panel.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Y_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FilterOffTop_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;V_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="P_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;W_BT.Name" xml:space="preserve">
+    <value>W_BT</value>
+  </data>
+  <data name="Valor_TB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="N_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;BuscarPor_LB.Parent" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="Content_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 246</value>
+  </data>
+  <data name="C_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="M_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="I_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="W_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CodigoAduanero.Name" xml:space="preserve">
+    <value>CodigoAduanero</value>
+  </data>
+  <data name="B_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Content_Panel.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Content_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;P_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;O_BT.Name" xml:space="preserve">
+    <value>O_BT</value>
+  </data>
+  <data name="AdvSearch_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Fields_CB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Tabla.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="NUEVE_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="B_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Search_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="D_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Familia.Name" xml:space="preserve">
+    <value>Familia</value>
+  </data>
+  <data name="W_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="U_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;FilterOffTop_BT.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="Search_Panel.Panel2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;N_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;H_BT.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Search_Panel.Panel2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="D_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;W_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressInfo_PB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="W_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Progress_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ValorFin_TB.Name" xml:space="preserve">
+    <value>ValorFin_TB</value>
+  </data>
+  <data name="CodigoFamilia.HeaderText" xml:space="preserve">
+    <value>ID Familia</value>
+  </data>
+  <data name="&gt;&gt;Valor_TB.Name" xml:space="preserve">
+    <value>Valor_TB</value>
+  </data>
+  <data name="Progress_Panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Filters_LB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 45</value>
+  </data>
+  <data name="UNO_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DOS_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Content_Panel.Parent" xml:space="preserve">
+    <value>Main_Panel.Panel2</value>
+  </data>
+  <data name="Search_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAgAEBAAAAEACABoBQAAhgAAABAQAAABACAAaAQAAO4FAAAYGAAAAQAIAMgGAABWCgAAGBgAAAEA
+        IACICQAAHhEAACAgAAABAAgAqAgAAKYaAAAgIAAAAQAgAKgQAABOIwAAMDAAAAEACACoDgAA9jMAADAw
+        AAABACAAqCUAAJ5CAAAoAAAAEAAAACAAAAABAAgAAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wAlnbwAxJGSAEpKSgBr/5UAvLnlADmdSQB5eXkA+cnLALLOqQBE5nUAia6UAC4uLgDVsLkAvtz+AKN/
+        fwDu6dsAluamAKirqwCep9sAX19fAGyvfwDLzMwAX9F6AOXs+QDa1ucAkJGRAMa6owAvtK8At6fCANSi
+        ogC9vb0AvamXAH/ClgCdnZ0AiW9vANG4zAA+Pj4Aa2trANrZxgD95egA2cfaAK2LigCGhoYA9/P0AOW0
+        sgBq75AA0NzzAPXa2QDKvt8A1rSqALSBgQC8wvEAn46OALWmpgBN7H8AsrKyALyJiwDHoKAAzNHtAMmu
+        yQDLuLgAtdT6AHJycgDFxcUAzaipALu6sgCZlZcA9NPRAKSkpACWiooAyJiYALehugC3kJAAvb2gAKWT
+        kwCshIQA1qmpAN+urwDNtqcA7/H3AKGFhQDLuNkA8cvKAIyMjADPnp4AvNX/AMDCwQAyMjIArq6uAN2z
+        sgBub28AwMGjAImJiQCampoAoKCgAKWnpwD1zMoAk5OTANWkpQDNycwAXV1dAKGBgQB1c3MAs4ODAM6g
+        oAC5jpEAq6urAJeXlwC/wMAA06SkAKV/fwBzc3MA1aOjAJKSkgCZmZkAnJycAJ+fnwCvr68Ay8vLAL/B
+        wQCamZoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAABxDV4AAAAAAAAAAAAAJxUAZkBVAAAAAAAAAAAAACZVXndac2AAWQQA
+        AAAAAHQgOVp4XHV3dwgsAAAAAAAAbDcrSiRoWG5hdm0AAAAAAFZyLk8DOmlNNhNfAAAAADtUYgYyPUkh
+        HzRHAAAAAABqRSo8GiUeSzNIUgAAAAAAbzEwGVFTQ11QZGcAAAAAAE4tPw9XNREoHAkQAAAAAAA+Ww4U
+        Ah04EgopcAAAAAAAAAAAQgsFLxgHa0wbAAAAAAAAAAAiFgxBZRd5YwAAAAAAAAAAAABEenZGIwAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA/H8AAOR/AADgJwAAwAcAAOADAADgAwAAwAcAAMAHAADABwAAwAcAAMAH
+        AAD4AwAA/AMAAP8HAAD//wAAKAAAABAAAAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlJSVtHx8f4kpKSl8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAACGhoach4eHotZWVkDTk5O1nJycv+BgYG9AAAAAAAAAAAAAAAIBgYGEAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAQkJCGj4+Pv+MjIz/iYmJ96+vr/+urq7/kpKS7oiIiFyMjIwOIiIi4ElJ
+        SfpDQ0MTAAAAAAAAAAAAAAAAAAAAAHV1dVu9vb3/srKy/7CwsLHb29upYGFhz5ycnP+xsbH9sbGx93p6
+        ev2Ghob/lJSUMAAAAAAAAAAAAAAAAAAAAABucnImrKys3LWmpv+vi4ryuoqKz4dqaul1c3P/z9LRlcrL
+        y5+kp6e+oKCg/YWFhY0AAAAAAAAAAAAAAAAAAAAA3qioM9Ofn/HXpKT86La0+uKwsfvGk5T+vImL/7WC
+        gvGtenrHjWZmbqmsrPaKioqIAAAAAAAAAAAAAAAAAAAAAM+dncz4z87u/NDO7b675/3Kvt//ya7J/7eh
+        uv+/q5j916Sk+7aDg/6RgoLNdHZ2BwAAAAAAAAAAAAAAAAAAAADSoKDp+9fV7N3K3vPM0e3/2tbn/9G4
+        zP+3p8L/vb2g/9m2rPvImJj/nnp6xgAAAAAAAAAAAAAAAAAAAAAAAAAA1qWl9v3g3+vS3vX85ez5/+/x
+        9//LuNn/u7qy/8DBo//QuKn716an/qF7e9gAAAAAAAAAAAAAAAAAAAAAAAAAANiqqvz79/j4ttb8/L7c
+        /v+81f//vMLx/+7p2//a2cb/yLuk/PvLzf2kfn7zAAAAAAAAAAAAAAAAAAAAAAAAAAD/y8td6rW0zNiy
+        u/ifqd/1Jp++/i+0r/9N7H//luam/7TQq/7/5+r9p4CA/nl8fDEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD+vLsX46SmlkPqdfhr/5X/au+Q/17VevUSmSi+wH+Dp6aTk/GKi4vMAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAw5WxfW7BzyYivk+3Pz8+51tLVydHS097CxMT4kZGR4AAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHNtcR6WkpTSm5qb9p6entqgoKCtjY2Ng29vbyEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD//wAA/H8AAOR/AADgJwAAwAcAAOADAADgAwAAwAcAAMAHAADABwAAwAcAAMAHAAD4AwAA/AMAAP8H
+        AAD//wAAKAAAABgAAAAwAAAAAQAIAAAAAACgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8ANm//AF77
+        iwBgYGAAvJq7AA6hJQAdpJwAYq/PAMPwxwAuLy8AdaaAALB7ewBAv2AA8sPEAJ/MmwCxye4ALJPWAEue
+        /wCbmZkAgXl5AOTg6QCC+KYAxcXFAD/meQDdq6sAxpKSAEtLSwAaGhoAwcGiAGus/wBm3oUAjZR2AMOv
+        2QDK2vQAfbyQAKqqqgD/4+MAiNiRANjH2AC4qJIAmnJyAEmoXwDk18oAbm5uAEfcjQCMjIwAleuiAMGs
+        rAA42GgAs6DUAO3v9wC1ubkAzNO4AKaIiADQuLgAbO+TAPvQ0ADnt7cAysrpANi9yAC8h4cA3Of4AIGd
+        igD/9PEAln5+AMKengBWVlYA2NjYACUlJQC0t5gAzs7OAM6wpAC1psIA1aOhAOXR6QD129gA2NvvALe9
+        6QCDg4MAo6OjAM+92AA/mf0Ao319ALy0owDNt8sAQ9p3AFbyiADvzs4AxcesAGdnZwCTk5MA27OzAMuw
+        sAC+vr4A9unlALWdyAB0uYsA7r67AKh2dgDMnZsA566yAMPO7wDT4/gAuszxADQ0NAB4eHgAwrDQAK2B
+        gQDGsaAAR+l7ANLW6wCzs7MAHx8fAFFRUQDT09MA89XUALy7tQD1ysoAx7W1AMGetgDWzN4AknJyANzY
+        6QDMl5YAvqOSALCtrwD87+wAfn5+AL+MjADJyckAysjiANfBzgDBvagAurecAOvExACWeXkA47OyAFzw
+        iwC8vZ8AvrGdACkpKQCSgoIAh4eHAJ6engDovLwA4bi4ANGvrwC+ncAAoZqaAIR9gwCHgYcAjpCQALKz
+        lADvv8EAt4mJAMDJqgDO1u8Av5CQAFlZWQD15OQAampqAHFxcQB7e3sAwcHBAJaWlgClpaUA1d3yAPLI
+        xwDJra0Axtj1AIB6fgDx19cAiIuLAPLQ0ADW1tYA2sXVANDR0QDgsLAAw4+QALWdzADsu7wA16SkAMbF
+        qQDww8EA7cTHAOWztACtra0AJycnAGVlZQBsbGwAgICAAOa6ugCyfX0AzMzMAIWFhQC3t7cAtbW1AJyc
+        nACoqKgA8PD4AJiYmAD84+IAh4SIAMCv2AC5upwA88zLAOu+uwCEh4cAiYmJAMGLigCOjo4AmJqaAPHN
+        zQDGxsYAya+vAKCfnwBa8IwA0+T6APHQzgD0yMoA1KOjAK+vrwBlZ2cA8s7QANjW2ADww8MArnt7AJSC
+        ggDWvcgAvIeJACAgIAB5eXkAenp6ANfX1wB/f38A0tLSAIKCggDnubkAhoaGAMvLywCugIAAiIiIAMjI
+        yACLi4sAj4+PAJSUlACVlZUAl5eXAJmZmQC4uLgAmpqaAJubmwC0tLQAnZ2dAKGhoQAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAchxqAAAAAAAAAAAAAAAAAAAAAAAAAAAEjb4sAAAAAAAAAAAA
+        AAAAAAAAABu8AAChG/bDAAAAAAAAAAAAAAAAAAAAn0XtgO/T0aO/xgAAAOdxvwAAAAAAAAAA6I/H83MX
+        8ETELuguoWnvogAAAAAAAAAA/8Lej/X8W0P3pOxwT73r/gAAAAAAAAAAJK+Y6635AArfWvb4XoJbvgAA
+        AAAAAAAAAJU3Qp6BbIiOEwAAAC79//QAAAAAAAAAqbayOrjPSnzSwfE2AKX6UFsAAAAAAAAAGc6oucwh
+        BZR4fWSz41M06QAAAAAAAAAwwNXOUTt75TxgVCiJugwUAAAAAAAAAADXh67gTm9NhFW0hYZItRrkAAAA
+        AAAAAACTWHR5Zp2nsGtJt81tmt1BAAAAAAAAAABcrExoqiJnJzJ1WYuMDol6AAAAAAAAAADuoBXayDM+
+        QEs1nB2Z3OIpAAAAAAAAAACRdH8QUhIeAggJXytGdjlj1AAAAAAAAAAAd5Ji24MHES1uGCYPyiU90QAA
+        AAAAAAAAAAAAXWUxA1fZFi8GIOab2MkAAAAAAAAAAAAAAABWijgfDSoLAADQsfIAAAAAAAAAAAAAAAAA
+        YSM/q5aXy/n91i4AAAAAAAAAAAAAAAAAAH7hF0fqr/PFpQAAAAAAAAAAAAAAAAAAAABQu6b7+ZAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A/8f/AP+H/wD5h/8A8AOPAPAADwDwAA8A8CAPAPgD
+        hwDwAIcA8AAPAOAAHwDgAB8A4AAfAOAAHwDgAB8A4AAPAPAADwD+AAcA/4DHAP/ABwD/4A8A//A/AP//
+        /wAoAAAAGAAAADAAAAABACAAAAAAAGAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxcXIBkZ
+        GZ8JCQnkEhISWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzoSkpKf9sbGz/aWlp5QAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8fHy0ZGRmoFRUV4AgI
+        CDqSkpIGU1NTu0tLS/+UlJT/h4eH/mRkZBYAAAAAAAAAAAAAAAAAAAAFBwcHIQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADc3N7QlJSX/goKC/3t7e+iGhobyjo6O/4mJif97e3v/gICA/4GB
+        gWQ/Pz8EAAAAACAgIEgcHBz2ICAg/jY2NmEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGxs
+        bMyHh4f/qKio/8jIyP/T09P/xcXF/8vLy//Y2Nj/t7e3/4yMjP91dXXnc3NzkUhISKk0NDT/hoaG/2Ji
+        YsoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAm5ubFaOjo/vMzMz/r6+v/4mJif52dnaLe3t7XXZ2
+        dnVXV1f9lZWV/8HBwf/S0tL/s7Oz/4ODg/9lZWX/f39//52dnesAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAmpqaFaysrPjV1tb/jpCQ/3+Bgf53e3useXx8Z09TU0suLy//ZWdn/11dXduDg4OZl5eX676+
+        vv/Jycn/k5OT/21tbf5wcHAdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJicnE2hmprl0Li4/8Ke
+        nv+/kJD/v4yM/6+Dg/6WeXn/koKC/5uYmOIAAAAAgoeHBnZ7e01/f3+xtra2/qGhof9jY2N1AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAOmtrXfapqb74rGx/Oq5ufrzxcP67cC9/dWjof/Ml5b/wYuK/7R+
+        fv6vd3jTom1tkaBjY0l5fHx5urq6/qKiov9lZWVfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA77m5KOCt
+        rfj6z8/t+MvK7/LHyvXCsdr9xbHc+76cvf6+ncD/wZ62/76jkv/Pn537xpCR+LB8fP6jfX3/tbm5/25u
+        bsh0dHQHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA36qqaOu9vfX40dHs+tDP7NK/2/bKyun/3Njp/9a9
+        yP/Yvcj/tZ3I/7y0o/+6qpT+5bW0+ue1tv6we3v/e3Fx2oGCggsAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA4rCwhvHHx/L51NTs+dLU7bm/6/3S1uv/2Nvv/9fBzv/Nt8v/tZ3M/8G9qP+6t5z/0bKm++69
+        vv7GkpL/jXV1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5rGxpPXR0e/72tnr2s/i9MPO
+        7//O1u//1d3y/9rF1f/CsND/tabC/8bFqf+5upz/yLKh/PHBw/3Uo6P/k3h43wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA67e3wvjc3O394d7ru87z/MbY9f/K2vT/0+P4/9jH2P+zoNT/vLu1/8XH
+        rP+8vZ//wLOe/fTFxvzjsrL/k3Jy/IWIiA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8Ly83/3r
+        6+vp5e/y0+T6//Dw+P/t7/f/3Of4///08f/l0en/zNO4/8DJqv/BwaL/tLWW/vfKzPvww8P/mnJy/4CD
+        g0EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8cDA5fTW1v3/8u/6s8308UCb//5Lnv//a6z//zZv
+        //9ir8//w/DH//bp5f/k18r/trma/vjMzPn70ND/qHZ2/4KGhnoAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/8TEB/zExFX4vr608cC9+vXT0fjOzOjuHqae/iyT1v9H3I3/R+l7/z/mef+I2JH/n8yb//7l
+        5Pz/4+P/vIeH/4SEhNWIiIgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/8XFGfC1
+        tXX1sLXUOdpp/l77i/9W8oj/WvCM/4L4pv+V66L/DqEl/4+Wd/6+iIr6t4mJ/6Cfn/98fX1wAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOeFz5Vzwi/9s75P/Zt6F/zjC
+        W+sQpTOjCpopWHOMXR1sbnI0hIeH99DR0f+EhITjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAANedtT0PEbYl+vpL+gZ2K/21la7N0aXKygXmA1oeEiPaZmZn/tLS0/8bG
+        xv+Hh4fWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAGyrbG52NbY/8XExf/Ozs7/19fX/9bW1v/IyMj/tbW1/5aWlu6KiopAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACkpKQKnJycja6urummpqbnlpaWwo6O
+        jpuMjIxyi4uLR5KSkg0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////AP/H/wD/h/8A+Yf/APADjwDwAA8A8AAPAPAgDwD4A4cA8ACHAPAADwDgAB8A4AAfAOAA
+        HwDgAB8A4AAfAOAADwDwAA8A/gAHAP+AxwD/wAcA/+APAP/wPwD///8AKAAAACAAAABAAAAAAQAIAAAA
+        AACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AIWL/AEvvdADKkYoAAJ4FAFVVVQB+wf8Am/OsADOl
+        vgDwxcMAMqFMAIKCggAsLCwAp5PGAL7T9wByw44AaYzRADaa/QDD/80Avr6+AB140wBXxF8A4+PjAKOn
+        hQBo7pYAqHJyABOcLwDcqaoAnsWiAKB8nABopXQArqvlAEFBQQBra2sAuqOlAFOt/wApwVUAUZNiANHL
+        3AAZGRkAPNNuAF/UewBJgv8AC1D/AKiLggAvgPQAk7zrAJKSkgAckv0AvKPFAKGiogCxjqoAh3FyAPHW
+        1wDXt8wAhPSlANDi/AC6xN4AVO6IALacjADNnJwAA5MiACGtRABsu/4Ao+G1ALG0mQCoudYAeeORALKy
+        sgCbaWkARcBWAKB3hQDktrcA1tfsAF+3dACnnLUAuYaGAHZ2dgDhyMoAgbiQAMrKygDZ2toAdPmdAJeL
+        fQCxvuwAJIjUAMW51gAKCgoAS0tLANDAvADz6uoAxqutAJF6egA1NTUAMa9UACEhIQCVoZcAStZ1ALmn
+        lgCU/7IAsH19AMXF6ACNhosAQ+Z7AJ6MjACuqo8AvLLeAGNjYwCrq6sAp5mDAObS3ADDlZUAZ8eHAGDK
+        cgC3kJEAYfmTALjJ8QC+tasAvbroAPTh4QDKqqEAd4Z7APTOzQCvp7YAadp/AKiMsgDR0dEArISLAGKz
+        /wC4q70AsJOGAM3R4wBN6IEAn4ODAL60wgCsmL8Az7CxAL+emgDS3PMAf3d9ADSD/QASEhIAwI6OANKm
+        pgB9uf8A6MTEAOGvsACb6a0AwqmbAOm9vQCoe3sAnpycAK+gjQCsoqcAnGxyAMC0tABxcnIAqZWuACYm
+        JgA7OzsA39/fALi4uACWl5cAWPSGAIaGhgCdfn4AqH6HALavlwCkb3AAwaOiAMzf+gDKmJgA2dXlAODC
+        zwDxycgAsoqPAM7Y8ADhvLoA3NnqADAwMAC1goIAo4mJAMS73QCsd3cAgXZ2AKqcrAD13dsAsq6VAI6O
+        jgCmpqYATFBQANmvrwDO0eoAUe1+AKmehgCwrq8AkIWFAMqkpACGf4UAUlJSAKWBgQDu29gA8tHRAHt7
+        ewDSoKAAyaCdAESC+wBZ8owAwsLCALuRkACqiooAsJ26ALeynACtlbkAnY+PAK2rpQDmtbEA8ebuAL2L
+        iwCno4cAu665AO7CwgCgbGwApXV1AKuAfAC7vLwAq5iEAOjIyABN7nkAUeqEAKmWwgAPDw8AHh4eAOfn
+        5wBZWVkASuZ/ANPU1ADPz88Abm5uAOK0tACOd3cAf39/AJqamgDUytcAubvlANKrpQCLiosA0NbtANms
+        qgDXpqYAw5GRALSZiQCfn58AQ4D/AOe5uwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAADIKA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtJ/pMJ0AAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACgXiLvnQAAAAAAAAAAAAAAAAAAAAAAAAAAAKDoYAAAAOsGpTCYAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAhtLS+nb339wxO8r0AAAAAALSOWAAAAAAAAAAAAAAAAFkGzDD9RaLR0W29zE69AAAi
+        tCj9nQAAAAAAAAAAAAAAzPNFUVIUbf1tUertbQydzCJZyL1sAAAAAAAAAAAAAL6+UVGYTqWj/fPrTqPR
+        oe39TiLv9/0AAAAAAAAAAAAAbRTu907M8wAAAA0ope8MvRShFKUi7wAAAAAAAAAAAAAAmNFS4jPF8bZp
+        Br+jnQAAowyY7hTMpQAAAAAAAAAAAAAAmIbSZds927i44KZpAAAAAP3Mf8ROAAAAAAAAAAAAAABNzfDe
+        3gr5+9u1uKnfl9MAAKV/bfIAAAAAAAAAAAAAc/CvCgreNzIefqysj+G4qUZG1+3MowAAAAAAAAAAAACs
+        e6+uayB3V3PWNPxu44Os22Xfo8wAAAAAAAAAAAAAI5B7e7dmrbP0sNR+aryowzwc+hq5AAAAAAAAAAAA
+        AACqwMt79cFKSieAiJ68vLy8bpOTTTUAAAAAAAAAAAAAAKqyy8tV+PhKJ6eIury8qGrD+fD7pgAAAAAA
+        AAAAAAAAzuQ2b3WxsYuESOeaQrzVatz28D3JAAAAAAAAAAAAAAA9NjatD6urOYebDthCQtVq3Hnw+ZcA
+        AAAAAAAAAAAAAHB4u7E63VyqfILSLUJCQqjclUlJ4AAAAAAAAAAAAAAAPVvKQy8HgSRA/gKUdoqZqBhj
+        /5YaAAAAAAAAAAAAAADGrLIxEkAHkZErLANoGUFaY5n/lmUAAAAAAAAAAAAAAAAAqkwRLo3PFVYJwoXs
+        aH1HHTaS29cAAAAAAAAAAAAAAAAAAADOBNly5aQ75ubsRAU+T4llXaMAAAAAAAAAAAAAAAAAAAAAI0uF
+        0Ds7OzgTFhtUNZzivaMAAAAAAAAAAAAAAAAAAAAAcYV0U2QIKj8LHwAATlLiDAAAAAAAAAAAAAAAAAAA
+        AAAQKWJiJV8memfHjE7yUdGlAAAAAAAAAAAAAAAAAAAAAAAAAFBh2sT3820UUe1/bTAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAzoRcXUlEUxJi9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAADz8/Oj8/P9AAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///////4////8H////B///xwf//4AHx/+AAYP/gA
+        AD/wAAA/8BwAP/gAMB/8ADwf/AAGH/gAAB/4AAA/8AAAf/AAAH/wAAB/8AAAf/AAAH/wAAB/8AAAf/AA
+        AH/8AAA//4AAH//gAA//8AMP//AAD//+AA///4Af///Af/////8oAAAAIAAAAEAAAAABACAAAAAAAIAQ
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAWFhYuFxcXmgwMDOoEBATCAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAGhoaCigoKOomJib/Hh4e/5KSkv80NDR6AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAcHByIJCQkbAAAAAAAAAAA3NzcrPDw8/zU1Nf9paWn/bm5u/2FhYckAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAB0dHUQcHBzKDw8P/RsbG/IFBQUqAAAAAXR0dEpZWVn/VlZW/4aGhv+SkpL/nJyc5QAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDRUJCQkdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMjIy3i4uLv8wMDD/pKSk/2lpadSMjIzfjIyM/oqKiv+CgoL/eHh4/39/
+        f/+NjY38kJCQFAAAAAAAAAAAAAAAABoaGikYGBjYEhIS/QYGBvcEBAQ5AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFGRkbyVVVV/3p6ev+RkZH/np6e/7Ozs/+4uLj/wcHB/8HB
+        wf+tra3/jY2N/3l5ef9ycnLuenp6mYCAgDsAAAABLi4uhjExMf8ZGRn/np6e/11dXbcAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAe3t7Hn19ff2ZmZn/sbGx/8rKyv/Z2dn/v7+//6ys
+        rP+goKD/q6ur/8vLy//n5+f/1NTU/6urq/+Dg4P/c3Nz/nV1ddhcXFzQS0tL/1JSUv+Pj4//YWFh9AAA
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACfn59Spqam/8zMzP/IyMj/nJyc/3d3
+        d/54eHi2fHx8cIGBgVaCgoJsV1dX9nh4eP+Wlpb/wcHB/+Hh4f/T09P/n5+f/3d3d/9sbGz/bm5u/4uL
+        i/+goKD+nJycDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKGhoVu9vb3/zs7O/4qK
+        iv93d3f/e3t7/np7e2WGiIgUAAAAACIlJRwsLS3+GBgY/4WFhf9qamrqe3t734+Pj/6/v7//3t7e/76+
+        vv+IiIj/a2tr/21tbf+Ojo43AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs7OzDZqa
+        mtzCw8P/2dvb/7m8vP+goqL/kIWF/494ePuhgIDJl3d3mFRUVP9MUFD/lZeX/2dqat1/goICiYqKOYSE
+        hJR+fn7qnJyc/8/Pz/+/v7//eXl5/2xsbJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAkpaWEpiRkZ6hhYX+uo+P/7F8fP++ior/z52d/7uJif+teHj/rXZ2/6R1df+efX3/nYyM+Kx0
+        dCAAAAAAAAAAAGVoaAV+gIBWd3d35NDQ0P+vr6//a2tr1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADHkJAvvISE7NShofzltbX88cPD+/DFw/zxxsT+2aup/8SQkP++jIz/tYKC/6x3
+        d/+lb3D/om1t/alycteocHCToGhoT4tXVwt4fHzG0dHR/6urq/9vb2/AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAwFpaA7yKitTmuLjy+s3M7vbJyPL2x8T38MTF+9q5z/u+pcf+oHyc/6mK
+        sv/Mmpr/y5eY/8COjv+tgn3+rXl5/aRwcP2damr+mmVl75yPj/3S1NT/e3t7/3JycmgAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADOl5c7yZmZ+vvR0e32zczt5cXT8b604fqwref+vbro/8W5
+        1v+2kJL/rZW5/7OQrP62m4v+qJiD/6uYhP+ylIf9zZma/b+Njf6wfn7/n2tr/5eZmf9vb2/HdHR0BQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM6ZmWLVp6f3+tPT7PvRz+zHveH4xcXo/9nV
+        5//c2er/1MrX/7KKj/+wnbr/p42x/66njf+xrJX/tq2Y/6qeh/+2nIz/3Kmq/9empv+pc3P/g3d3/nZ3
+        dzsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0ZiYgN2xsfT51NTs+9LQ7Lq8
+        5/zO0er/1dbq/9fX6//Rydv/rISL/62Zvv+pla7/sq+V/7Gslf+1rJb/sKqT/6aagv/hrrD/4LCw/7iF
+        hf+Ebm7skpSUAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRmpqe5b298vnW
+        1ez41Nbts8Du/s/V7f/R1u3/1dju/9DM3f+ofof/q5e//6qcrP+xsJb/sa6W/7eumf+uq5D/p52F/9mt
+        qv/hsrL/wpKS/5hycsMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANSZ
+        mbzty8vv+dva6+vW4O+4yfH/zdfw/87Y8f/S3PP/zdHj/6B3hf+plsL/rKKn/7GymP+xsJf/uLKc/62q
+        j/+moYb/0qul/+KztP/NnZ3/o3FxugAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA0JmZ2vXa2u373t3r3Nfn877T9//L3fj/zOD7/9Di/P++tML/nGxy/6eTxv+tq6X/srSZ/7Gy
+        mP+2spz/r6uQ/6ejiP/KqqH/47S2/9mrq/+ncXHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP+OjgLGlpb0/Ofn6/3j4evS2/L3usTe/7uuuf/Gq63/waKg/6+ntv+4q73/vJKR/6iL
+        gv+xsZf/sbWZ/7K2m/+1r5X/p6WH/8Kpm//ltrf/47a2/6dwcOwAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AB8A/wAA/8AAH8D/AAD/wAAH4P8AAP+AAABg/wAA/wAAAAH/AAD+AAAAAf8AAP4AAAAD/wAA/gAAAAf/
+        AAD+AAAAB/8AAP4AAAAH/wAA/gAAAAf/AAD+AAAAB/8AAP4AAAAH/wAA/AAAAAf/AAD8AAAAB/8AAPwA
+        AAAH/wAA/AAAAAf/AAD8AAAAA/8AAP8AAAAD/wAA/+AAAAP/AAD/+AAAAf8AAP//AAAA/wAA///AAGB/
+        AAD//+AA8D8AAP//4AfgPwAA///gAAA/AAD///8AAH8AAP///4AAfwAA////wAH/AAD////gH/8AAP//
+        /////wAA////////AAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUVFSYVFRV5Dg4OzwsLC/kGBgaAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        w/zkvsn70Ljb+qN8iv2kiLb/pIi0/8GVoP7Mmpn+yZiY/8iUlv/BjpD/s4SC/7J+f/2seHj8o3Bw/p9s
+        bP6baGj+mmZm+4pra+a9wMD/1NTU/5GRkf9tbW3xdnZ2FgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM6UlFPCj4/8+9DQ7ffLy+31y8vt9szL7fbM
+        y+7fwtLzybbb+rKr5P6tqef/v7rs/6eBjP/Fpq//sZm2/6iJtP7SnqD4z52c+7qZkP+qlIL/qJJ//7CP
+        hP3Gk5T5v42N+7mHh/2wfX3+p3R0/5lhYf+/ra3/pKWl/3V1df50dHRvAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMyWlo/UpaX3+tLS7PbN
+        ze32zc3t+c7N7bKx5/2zsuj/wb7n/8/K5v/c1eb/4t7t/66Hi//Eo6z/s5+3/6qQuP+ukab+qZuB/que
+        h/+vpY7/s6iU/6iZg/+xl4j/16Sl/9Genv/KmJj/xJKS/7B8fP+abGz/jZCQ/3BwcLuTk5MCAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM+W
+        lq3bra31+dLS7PfPz+z4z8/s7MrU8LC06f/X1ef/2NXo/9jV6P/a1ej/3dzv/62Gi//BoKr/sZ64/6uT
+        uP+plaX/saqS/7Gslv+yrJX/t6yY/7Kqlf+qnYb/r5uI/9uqqv/YqKj/1qWl/9CgoP+aY2P/hYSE/nl6
+        ekcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAM6YmMvkubny+NPT7PfR0ez50tHs3sjb87e96v/U1en/1NTq/9bV6v/X1ur/3d3x/62J
+        jP+6mqX/sJ65/6mQuf+snqX/sq2V/7Gslf+xq5X/t6yZ/7Gqkv+xq5T/p5qC/9OppP/era3/26ys/9+u
+        rv+eaGj/fnNz9HJzcwoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAM2VlenrxcXw+NTU7PfT0+z61NPs0Mfh9r/E7P/R1ev/0tXr/9TW
+        6//V1+z/2t70/6yIjv+1laP/sZ28/6eNu/+vpKH/sa+W/7Gtlv+xrZX/tK2Z/7Kqk/+xq5P/qJyG/8yn
+        oP/gr6//366u/+Kzs/+nc3P/jXZ2yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8J6eC8OPj/v00NDu99bW7PfV1ez71tTsw8To+sTM
+        7f/Q1u3/0Nbt/9LX7f/U2O3/2N/0/6yJjv+vkKD/sJ+9/6WLvP+vqp7/sa+X/7Gvl/+xrpb/sq6W/7as
+        l/+uq5D/qaCH/8Wmm//gsLD/3q+v/+Gysv+yf3//nXNzogAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0KCgJsOOjv7729vr+dra6/fX
+        1+v729jrt8Xv/cbR7//N1u//ztfw/9DY8P/R2fD/1uD3/62Kj/+piJv/rpy//6SLvv+xspn/sbCY/7Gw
+        l/+xr5f/sa+W/7ivmf+sqo//qaKK/76klv/isbL/37Cw/+Kzs/+7ior/pnFxogAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2p+fQ8qX
+        l/z84ODr+Nvb6/nb2+vy2t/ttMn0/snX8v/M2PL/zdny/87a8//Q3PT/1uT8/6uLkv+lhZn/rZrB/6SP
+        vf+ytZj/sbKY/7GxmP+xsZf/sbCX/7qvm/+sqo3/qqWK/7WhkP/js7X/4LKy/+G1tf/FlZX/pnBwvQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA1qCgYdGiovr74+Pr+N7e6/nf3uvj2ebxuND1/8jZ9v/J2vf/y9/6/87i/P/R5f//y9ft/5pn
+        Z/+fdYD/rJvG/6aWu/+zt5j/sbOZ/7Gzmf+xspj/sbKY/72xnf+pqoz/qaaK/6ygif/mtLb/4LOz/+G0
+        tP/RoqL/p25u3gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA2aKigNeurvf75OTr+ODg6/zi4OvX3PH1vNj9/8be/f/Bzuj/tqy8/6qK
+        kf+lc3H/soF6/8mlov+7j4f/nWlr/6CDkP+xtpf/sric/7G1m/+xtZn/sbOZ/8G0of+nqon/qamL/6af
+        hP/ltrf/47S0/+K1tf/ar6//nWlp9sSCggkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2aKiod+6uvX75ubr+OPj6+3T0u3CtcH6wrC2/8+v
+        q//RtrP/xsbU/7fU8/+j1v//hsf//5HL//9bkv//pL37/9C5wP+4h4v/onx0/6uljf+xuJv/sbeb/8S3
+        pv+mqoj/qaqK/6Ofg//ftLP/5Le3/+K3t//lubn/nmpq/rN6eiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3KSkxOPExPP58fH07+Xl+fTc
+        2eycz//9fMD//1mv//9DpP//RqT//02n//9Vqf//Wqz//4K5//8qaf//DFD//ymntv+C+KX/wezP/9e5
+        vv+3jo//po9//8O1pP+mqob/pqqH/6ShhP/Xs63/5Le4/+O3t//nvLz/p3V1/6t2dkMAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6a+vjcmU
+        lPfNnJz358vL9fHr7+8dkf/+QqL//l6x//5ptf//drz//4PC//6MyP//lMz//57M/v9EfP7/EE///zu+
+        oP9K53n/QuN4/0rngP+Q9bP/zurT/9u5wP+yl43/oZd7/6Cjgf/NsKf/5rq7/+S5uf/nvr7/soCA/613
+        d2UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAN2lpRXXn59u05iXz8CQlP1Lk+n/I4///zyc//9suP//Y63//1Kd//9DkP//OIL//y1y
+        //8oaf//CkX//0fXkP9O53//TOV//0vkfv9F43r/PuJ1/2vtl/+t57X/z97L/9u/w//GpaH/4bS1/+S7
+        u//nvb3/vI2N/610dIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOSmpTHam5OSxpOU6oyMtv5ZgdT+a5rx+Yi5
+        //2Hoe7qV5K66iaplv9Dx6j/R9Kb/1Pvgf9R6oP/T+iC/03mgP9M5X//TOV//1boh/9my23/AKMM/y6v
+        RP+x3rv/9ujs/+bOzv/lvr7/yZmZ/5l0dOmKjY0pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3I+OCNid
+        mlXWmZO2yI2H+dOhm/n22NT5u+vB9y/PXv9a9Yn/VvCH/1Pshv9S64X/UeqE/1Dpg/9P6IL/TueB/0vn
+        gf+G1or/A6IR/wygIP9Dqlf///////Lr6//j0tL/vZOT/59ycv9/gYHliYmJMAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA3aCgHcyWlnnFiIrXnpeA/S7RZ/9b9I7/V/CK/1bvif9V7oj/VO2H/1Ps
+        hv9Q6oP/S+mA/0bofv+b5KD/AJ4I/wqhGv8gkzT/sWx1/aNsbPydb2//vZeX/62YmP+YmZn/fn5+7o2N
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD///////8AAP//8P///wAA///Af///
+        AAD//8B///8AAP//wH///wAA/8fAf///AAD/A8A///8AAP8AAD+D/wAA/wAAPwP/AAD/AAAHAf8AAP4A
+        AAAB/wAA/gAAAAH/AAD+APgAAf8AAP4A+AAB/wAA/wA4GAH/AAD/AAAfAP8AAP/AAB/A/wAA/8AAB+D/
+        AAD/gAAAYP8AAP8AAAAB/wAA/gAAAAH/AAD+AAAAA/8AAP4AAAAH/wAA/gAAAAf/AAD+AAAAB/8AAP4A
+        AAAH/wAA/gAAAAf/AAD+AAAAB/8AAPwAAAAH/wAA/AAAAAf/AAD8AAAAB/8AAPwAAAAH/wAA/AAAAAP/
+        AAD/AAAAA/8AAP/gAAAD/wAA//gAAAH/AAD//wAAAP8AAP//wABgfwAA///gAPA/AAD//+AH4D8AAP//
+        4AAAPwAA////AAB/AAD///+AAH8AAP///8AB/wAA////4B//AAD///////8AAP///////wAA
+</value>
+  </data>
+  <data name="&gt;&gt;W_BT.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Campos_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="PrecioVenta.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="Animation.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;P_BT.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="O_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="FilterOn_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;Codigo.Name" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="&gt;&gt;CINCO_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Y_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Q_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Main_Panel.Panel2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Content_Panel.Panel2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="G_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FilterOff_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ProgressMsg_LB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Observaciones.HeaderText" xml:space="preserve">
+    <value>Observaciones</value>
+  </data>
+  <data name="ValorFin_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ProgressBK_Panel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FilterOn_BT.Name" xml:space="preserve">
+    <value>FilterOn_BT</value>
+  </data>
+  <data name="&gt;&gt;C_BT.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="B_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="OCHO_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProgressMsg_LB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TRES_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Progress_Panel.Parent" xml:space="preserve">
+    <value>ProgressBK_Panel</value>
+  </data>
+  <data name="V_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ErrorMng_EP.Name" xml:space="preserve">
+    <value>ErrorMng_EP</value>
+  </data>
+  <data name="FilterOffTop_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Animation.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="I_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Search_Panel.Parent" xml:space="preserve">
+    <value>Main_Panel.Panel1</value>
+  </data>
+  <data name="Valor_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProgressMsg_LB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="U_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ValorFin_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AdvSearch_BT.Name" xml:space="preserve">
+    <value>AdvSearch_BT</value>
+  </data>
+  <data name="&gt;&gt;SaveFile_SFD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Title_LB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="W_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CINCO_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CUATRO_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Campos_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Y_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ValorIni_TB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DOS_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;K_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;H_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;Search_TB.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="label1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Panel2.Name" xml:space="preserve">
+    <value>Main_Panel.Panel2</value>
+  </data>
+  <data name="Main_Panel.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Datos.Name" xml:space="preserve">
+    <value>Datos</value>
+  </data>
+  <data name="Main_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 362</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="P_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="C_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Filters_LB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProgressBK_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;TipoFacturacionLabel.Name" xml:space="preserve">
+    <value>TipoFacturacionLabel</value>
+  </data>
+  <data name="F_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdvSearch_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="S_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ValorIni_TB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Letras_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="SEIS_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Search_Panel.Name" xml:space="preserve">
+    <value>Search_Panel</value>
+  </data>
+  <data name="OCHO_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;TRES_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PrecioVenta.HeaderText" xml:space="preserve">
+    <value>Precio Venta</value>
+  </data>
+  <data name="ProgressBK_Panel.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="W_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ProgressMsg_LB.Parent" xml:space="preserve">
+    <value>Progress_Panel</value>
+  </data>
+  <data name="&gt;&gt;GN_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="I_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Campos_Panel.Name" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="Main_Panel.Panel2.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;UNO_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;Animation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="K_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Content_Panel.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SEIS_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;L_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UNO_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Content_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="V_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CERO_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;CodigoArticuloAcreedor.Name" xml:space="preserve">
+    <value>CodigoArticuloAcreedor</value>
+  </data>
+  <data name="&gt;&gt;SIETE_BT.Name" xml:space="preserve">
+    <value>SIETE_BT</value>
+  </data>
+  <data name="&gt;&gt;X_BT.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="S_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Letras_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Operador_CB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="TRES_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Content_Panel.Panel2.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;A_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;D_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Content_Panel.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="CancelBkJob_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NUEVE_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;T_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="CERO_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Animation.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ValorIni_TB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CancelBkJob_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Progress_PB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 149</value>
+  </data>
+  <data name="DOS_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="TipoFacturacionLabel.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="Search_Panel.Panel2.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Filters_LB.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Main_Panel.Panel2.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="N_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SEIS_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="P_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Filters_LB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Operador_CB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Valor_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Z_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="P_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Search_TB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="V_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;C_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="U_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Y_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Title_LB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DOS_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main_Panel.Panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ProgressInfo_PB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="FilterOffTop_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="X_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UNO_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ProgressBK_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="K_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Nombre.Width" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <data name="&gt;&gt;J_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="V_BT.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="M_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Fields_CB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Search_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SIETE_BT.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="T_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="NUEVE_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;O_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;Nombre.Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="ProgressInfo_PB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;P_BT.Name" xml:space="preserve">
+    <value>P_BT</value>
+  </data>
+  <data name="&gt;&gt;M_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="Content_Panel.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="CINCO_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Tabla.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Campos_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Content_Panel.Panel1.Parent" xml:space="preserve">
+    <value>Content_Panel</value>
+  </data>
+  <data name="Search_Panel.Panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Fields_CB.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CINCO_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="C_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="B_BT.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DOS_BT.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Codigo.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="U_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;H_BT.Name" xml:space="preserve">
+    <value>H_BT</value>
+  </data>
+  <data name="S_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Panel2.Parent" xml:space="preserve">
+    <value>Main_Panel</value>
+  </data>
+  <data name="&gt;&gt;Main_Panel.Panel1.Name" xml:space="preserve">
+    <value>Main_Panel.Panel1</value>
+  </data>
+  <data name="R_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PrecioCompra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SIETE_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DOS_BT.Name" xml:space="preserve">
+    <value>DOS_BT</value>
+  </data>
+  <data name="NUEVE_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="SEIS_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="TRES_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ProgressBK_Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Operador_CB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GN_BT.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;CERO_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="Tabla.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="CERO_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="J_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;U_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Z_BT.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Q_BT.Name" xml:space="preserve">
+    <value>Q_BT</value>
+  </data>
+  <data name="ValorIni_TB.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="F_BT.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="AdvSearch_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;C_BT.Parent" xml:space="preserve">
+    <value>Letras_Panel</value>
+  </data>
+  <data name="&gt;&gt;F_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdvSearch_BT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Nombre.HeaderText" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Campos_Panel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="B_BT.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Title_LB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="T_BT.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Operador_CB.Parent" xml:space="preserve">
+    <value>Campos_Panel</value>
+  </data>
+  <data name="Progress_Panel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;A_BT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FilterOff_BT.Name" xml:space="preserve">
+    <value>FilterOff_BT</value>
+  </data>
+  <data name="ValorIni_TB.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Main_Panel.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="FilterOn_BT.Error" xml:space="preserve">
+    <value />
+  </data>
+  <metadata name="HelpProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>258, 17</value>
+  </metadata>
+  <metadata name="Datos.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>502, 17</value>
+  </metadata>
+  <metadata name="ErrorMng_EP.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>380, 17</value>
+  </metadata>
+  <metadata name="AyudaKilo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="IsKit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Descripcion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SaveFile_SFD.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="CodigoFamilia.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TipoFacturacionLabel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CodigoAduanero.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Observaciones.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CodigoArticuloAcreedor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PrecioVenta.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Familia.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DatosSearch.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>139, 17</value>
+  </metadata>
+  <metadata name="PrecioCompra.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DatosLocal_BS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="Codigo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

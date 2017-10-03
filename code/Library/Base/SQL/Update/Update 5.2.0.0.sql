@@ -1,0 +1,19 @@
+/* UPDATE 5.2.0.0*/
+
+SET SEARCH_PATH = "COMMON";
+
+UPDATE "Variable" SET "VALUE" = '5.2.0.0' WHERE "NAME" = 'STORE_DB_VERSION';
+
+SET SEARCH_PATH = "0001";
+
+ALTER TABLE "LineaLibroGanadero" ADD COLUMN "TIPO" bigint DEFAULT 1;
+
+UPDATE "LineaLibroGanadero" SET "TIPO" = 1 WHERE "CAUSA" = 'Importación';
+UPDATE "LineaLibroGanadero" SET "TIPO" = 2 WHERE "CAUSA" = 'Venta';
+
+UPDATE "ExpedienteREA" SET "ESTADO" = 21 WHERE "COBRADO" = TRUE;
+UPDATE "ExpedienteREA" SET "ESTADO" = 14 WHERE "COBRADO" = FALSE;
+
+INSERT INTO "Setting" ("NAME", "VALUE") VALUES ('AYUDA_FOMENTO', '3');
+INSERT INTO "Setting" ("NAME", "VALUE") VALUES ('AYUDA_REA', '1');
+INSERT INTO "Setting" ("NAME", "VALUE") VALUES ('AYUDA_POSEI', '2');

@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+<xs:schema id="ProductoDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+<xs:element name="ProductoDataSet" msdata:IsDataSet="true"
+msdata:MainDataTable="ProductoPrint" msdata:UseCurrentLocale="true">
+<xs:complexType>
+<xs:choice minOccurs="0" maxOccurs="unbounded">
+<xs:element name="ProductoPrint">
+<xs:complexType>
+<xs:sequence>
+  <xs:element name="OidAyuda" type="xs:positiveInteger" />
+  <xs:element name="OidFamilia" type="xs:positiveInteger" />
+  <xs:element name="OidImpuestoCompra" type="xs:positiveInteger" />
+  <xs:element name="OidImpuestoVenta" type="xs:positiveInteger" />
+  <xs:element name="Estado" type="xs:positiveInteger" />
+  <xs:element name="Serial" type="xs:positiveInteger" />
+  <xs:element name="Codigo" type="xs:string" minOccurs="0" />
+  <xs:element name="Bulto" type="xs:boolean" />
+  <xs:element name="Observaciones" type="xs:string" minOccurs="0" />
+  <xs:element name="Descripcion" type="xs:string" minOccurs="0" />
+  <xs:element name="Nombre" type="xs:string" minOccurs="0" />
+  <xs:element name="PrecioCompra" type="xs:decimal" />
+  <xs:element name="PrecioVenta" type="xs:decimal" />
+  <xs:element name="TipoFacturacion" type="xs:positiveInteger" />
+  <xs:element name="StockMinimo" type="xs:decimal" />
+  <xs:element name="KilosBulto" type="xs:decimal" />
+  <xs:element name="AvisarStock" type="xs:boolean" />
+  <xs:element name="AyudaKilo" type="xs:decimal" />
+  <xs:element name="CuentaContableCompra" type="xs:string" minOccurs="0" />
+  <xs:element name="CuentaContableVenta" type="xs:string" minOccurs="0" />
+  <xs:element name="CodigoAduanero" type="xs:string" minOccurs="0" />
+  <xs:element name="BeneficioCero" type="xs:boolean" />
+  <xs:element name="AvisarBeneficioMinimo" type="xs:boolean" />
+  <xs:element name="PBeneficioMinimo" type="xs:decimal" />
+  <xs:element name="EstadoLabel" type="xs:string" minOccurs="0" />
+  <xs:element name="TipoFacturacionLabel" type="xs:string" minOccurs="0" />
+  <xs:element name="Elaborado" type="xs:boolean" />
+  <xs:element name="CodigoFamilia" type="xs:string" minOccurs="0" />
+  <xs:element name="Familia" type="xs:string" minOccurs="0" />
+  <xs:element name="ImpuestoCompra" type="xs:string" minOccurs="0" />
+  <xs:element name="PImpuestoCompra" type="xs:decimal" />
+  <xs:element name="ImpuestoVenta" type="xs:string" minOccurs="0" />
+  <xs:element name="PImpuestoVenta" type="xs:decimal" />
+  <xs:element name="CodigoArticuloAcreedor" type="xs:string" minOccurs="0" />
+  <xs:element name="OidProducto" type="xs:positiveInteger" />
+  <xs:element name="OidProveedor" type="xs:positiveInteger" />
+  <xs:element name="Proveedor" type="xs:string" minOccurs="0" />
+  <xs:element name="NExpediente" type="xs:string" minOccurs="0" />
+  <xs:element name="FechaCompra" type="xs:date" />
+  <xs:element name="Naviera" type="xs:string" minOccurs="0" />
+  <xs:element name="TransporteOri" type="xs:string" minOccurs="0" />
+  <xs:element name="TransporteDes" type="xs:string" minOccurs="0" />
+  <xs:element name="Cliente" type="xs:string" minOccurs="0" />
+  <xs:element name="FechaVenta" type="xs:date" />
+  <xs:element name="KilosVendidos" type="xs:decimal" />
+  
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:choice>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+</NewDataSet>

@@ -1,0 +1,13 @@
+C:\VS Projects Git\moleQule.Store\code\Library\bin\moleQule.Library.Store.dll.config
+C:\VS Projects Git\moleQule.Store\code\Library\bin\moleQule.Library.Store.dll
+C:\VS Projects Git\moleQule.Store\code\Library\bin\moleQule.Library.Store.pdb
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.csprojResolveAssemblyReference.cache
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.Resources.SecureItems.resources
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.Properties.Resources.resources
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.Resources.Defaults.resources
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.Resources.Labels.resources
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.Resources.Messages.resources
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.Resources.Enums.resources
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.csproj.GenerateResource.Cache
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.dll
+C:\VS Projects Git\moleQule.Store\code\Library\obj\Demo\moleQule.Library.Store.pdb
